@@ -1,0 +1,81 @@
+#summary One-sentence summary of this page.
+
+= DOCUMENTO DE VISÃO =
+
+ Schema Generator - Uma Ferramenta para Geração Automática de Esquemas de Bancos de Dados para Simulação em Ambientes P2P 
+
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+DOCUMENTO DE VISÃO
+
+                   Schema Generator - Uma Ferramenta para Geração Automática de Esquemas de Bancos de Dados para Simulação em Ambientes P2P 
+
+
+*Descrição*
+    
+
+    Simulação é a técnica mais comum para investigar aplicações Peer-to-Peer (P2P) como os Sistemas P2P de Gerenciamento de Dados (em inglês, Peer Data Management Systems - PDMSs). Para simular o processamento de consultas em PDMSs, os simuladores necessitam associar um esquema de banco de dados a cada peer da rede overlay. Este esquema representa os dados a serem compartilhados por um peer com os demais peers do sistema. Em geral, as simulações envolvem um número elevado de peers, de centenas a milhares. Encontrar ou criar uma grande quantidade de esquemas de banco de dados pode ser uma tarefa tendenciosa, cansativa e que consome bastante tempo.
+
+    O objetivo deste projeto é propor uma ferramenta para geração automática de esquemas de bancos de dados aleatórios com propósitos de simulação. Um esquema-base deve ser utilizado para geração dos esquemas de banco de dados, os quais devem ser subesquemas deste esquema-base
+    Inicialmente, serão importados esquemas de banco de dados relacionais.
+
+ 
+
+*Requisitos Funcionais*
+
+
+Componente 01 - Comunicação com o SGBD para acessar um BD Relacional
+                1) Recuperar tabelas de um usuário de um banco de dados;
+                2) Recuperar campos das tabelas do usuário escolhido;
+
+                3) Recuperar relacionamentos entre as tabelas.
+
+
+Componente 02 - Desenhar esquema do banco de dados
+                1) Mostrar o esquema em formato gráfico (grafo).
+
+                2) Mostrar os esquemas gerados.                
+
+ 
+
+Componente 03 - Gerador de esquemas
+
+                1) Gerar os esquemas de forma aleatória;
+
+
+Componente 04 - Gerador de Scripts
+
+                1) Gerar arquivos texto que seriam o script de criacao de cada esquema gerado.
+
+
+Componente 05 - Dicionário de Sinônimos
+
+                1) Identificar e recuperar sinônimos (em inglês);
+
+                2) ...
+
+             
+
+
+*Requisitos Não Funcionais*
+
+
+        1) SGBD Oracle;
+        2) Arquitetura N camadas;
+
+        3) Ferramenta em inglês;
+        4) Manual de uso da ferramenta em inglês;
+
+        5) Site da ferramenta em inglês.
+
+
+*Perfil do Usuário*
+    
+
+    Profissionais da área de SI e banco de dados, professores, pesquisadores e desenvolvedores, que necessitam de um qtde consideravel de esquemas para simulação. O cliente alvo normalmente já tem algum conhecimento de informática e provavelmente não terá dificuldades com a ferramenta.
