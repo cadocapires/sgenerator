@@ -1,6 +1,15 @@
 = User Stories e Testes De Aceitação =
 
-||US||||Descrição||||Estimativa||||Teste de Aceitação||
+|| *US* |||| *Descrição* |||| *Estimativa* |||| *Teste de Aceitação* ||
+|| US1 ||||  ||||  ||||  ||
+|| US2 ||||  ||||  ||||  ||
+|| US3 ||||  ||||  ||||  ||
+|| US4 ||||  ||||  ||||  ||
+|| US5 ||||  ||||  ||||  ||
+|| US6 ||||  ||||  ||||  ||
+|| US7 ||||  ||||  ||||  ||
+
+
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
