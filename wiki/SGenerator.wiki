@@ -8,7 +8,7 @@ Nós somos muuuuuuuuuito legais  =D.
 = Details =
 
 Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
+  * Text in *início* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
  [http://code.google.com/p/sgenerator/downloads/detail?name=Esporte-marco.doc&can=2&q=#makechanges]
