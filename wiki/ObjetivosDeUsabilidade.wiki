@@ -2,7 +2,7 @@
 
 = Introduction =
 
-||  *Objetivo* ||||*Mensuração*  ||
+||  *Objetivo* |||| *Mensuração* ||
 ||  jjjjjjjjjjjjjjjjjlllllllllllllllllllllllllllj ||||jjjjjjjjjjjj  ||
 
 = Details =
