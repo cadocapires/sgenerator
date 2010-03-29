@@ -1,7 +1,6 @@
 = User Stories e Testes De Aceitação =
 
-
-= Details =
+||US||||Descrição||||Estimativa||||Teste de Aceitação||
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
