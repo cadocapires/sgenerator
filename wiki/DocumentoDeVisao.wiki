@@ -22,13 +22,16 @@
 Componente 01 - Comunicação com o SGBD para acessar um BD Relacional
 
                 1) Recuperar tabelas de um usuário de um banco de dados;
+
                 2) Recuperar campos das tabelas do usuário escolhido;
+
                 3) Recuperar relacionamentos entre as tabelas.
 
 
 Componente 02 - Desenhar esquema do banco de dados
 
                 1) Mostrar o esquema em formato gráfico (grafo);
+
                 2) Mostrar os esquemas gerados.                
 
  
@@ -46,6 +49,7 @@ Componente 04 - Gerador de Scripts
 Componente 05 - Dicionário de Sinônimos
 
                 1) Identificar sinônimos (em inglês);
+
                 2) Res]cuperar sinônimo.
 
              
@@ -55,9 +59,13 @@ Componente 05 - Dicionário de Sinônimos
 
 
         1) SGBD Oracle;
+
         2) Arquitetura N camadas;
+
         3) Ferramenta em inglês;
+
         4) Manual de uso da ferramenta em inglês;
+
         5) Site da ferramenta em inglês.
 
 
