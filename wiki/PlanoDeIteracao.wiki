@@ -1,3 +1,2 @@
-
 = Plano De Iteração =
-
+=== Tabela de Alocação de Tarefas ===
