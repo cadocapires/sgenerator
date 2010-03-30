@@ -1,9 +1,22 @@
 = Plano De Iteração =
 == Tabela de Alocação de Tarefas ==
 
-=== Iteração 1 - 31/03 - 15/04 ===
-=== Iteração 2 - 15/03 - 29/04 ===
-=== Iteração 3 - 29/04 - 13/05 ===
-=== Iteração 4 - 13/05 - 27/05 ===
-=== Iteração 5 - 27/05 - 10/06 ===
-=== Iteração 6 - 10/06 - 01/07 ===
+=== Iteração 1 - (31/03 - 15/04) ===
+||*Teste De Aceitação*|||| *Status*||
+|||| ||||
+||*Atividade*||
+
+=== Iteração 2 - (15/03 - 29/04) ===
+||*Teste De Aceitação*|||| *Status*||
+
+=== Iteração 3 - (29/04 - 13/05) ===
+||*Teste De Aceitação*|||| *Status*||
+
+=== Iteração 4 - (13/05 - 27/05) ===
+||*Teste De Aceitação*|||| *Status*||
+
+=== Iteração 5 - (27/05 - 10/06) ===
+||*Teste De Aceitação*|||| *Status*||
+
+=== Iteração 6 - (10/06 - 01/07) ===
+||*Teste De Aceitação*|||| *Status*||
