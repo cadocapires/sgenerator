@@ -1,5 +1,5 @@
 = Matriz de Competência =
 
 || *Equipe* |||| *Competências* ||
-||Márcio Saraiva||||||
-||Priscilla Vieira||||||
+||Márcio Saraiva||||Oracle, SWT||
+||Priscilla Vieira||||Oracle, SWT||
