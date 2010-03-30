@@ -75,5 +75,3 @@ US7
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A6.1||||Contruir manual de uso.||||Priscilla||||15h|||||| ||||
 ||A6.2||||Contruir site da ferramenta.||||Márcio ||||15h|||||| ||||
-
-
