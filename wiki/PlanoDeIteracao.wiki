@@ -4,7 +4,7 @@
 === Iteração 1 - (31/03 - 15/04) ===
 US1
 ||  *Teste De Aceitação*  |||| *Status*||
-|||| ||||
+||Verificar o sucesso do estudo na aplicação. || ||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 
