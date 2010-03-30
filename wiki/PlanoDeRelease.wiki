@@ -1,13 +1,16 @@
-#summary One-sentence summary of this page.
+= Plano de Release =
 
-= Introduction =
+===Release 1 - (31/03 - 29/04) ===
+|| *Iteração*|||| *User Story* |||| *Período*||
+||Iteração 1|| ||US1, US2|| ||31/03 - 15/04||
+||Iteração 2|| |||| |151/03 - 29/04||
 
-Add your content here.
+===Release 2 - (29/04 - 27/05)===
+||*Iteração*||||*User Story*||||*Período*||
+||Iteração 3|| |||| ||29/04 - 13/05||
+||Iteração 4|| |||| ||13/05 - 27/05||
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+===Release 3 = (27/05 - 01/07) ===
+||*Iteração*||||*User Story*||||*Período*||
+||Iteração 5|| |||| ||27/05 - 10/06||
+||Iteração 6|| |||| ||10/06 - 01/07||
