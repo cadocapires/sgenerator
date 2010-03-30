@@ -1,4 +1,4 @@
-= Definição de Papeis =
+= Definição de Papéis =
 
 || *Equipe*|| *Papeis*||
 |||Carlos Eduardo|||Cliente||
