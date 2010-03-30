@@ -9,7 +9,7 @@ US1
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 
 US2
-||*Teste De Aceitação*|||| *Status*||
+||  *Teste De Aceitação*  |||| *Status*||
 |||| ||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
