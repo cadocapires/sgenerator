@@ -1,1 +1,7 @@
 = Definição de Papeis =
+
+|| *Equipe*|| *Papeis*||
+|||Carlos Eduardo|||Cliente||
+|||Carlos Eduardo|||Usuário||
+|||Márcio Saraiva|||Gerente, Desenvolvedor, Testador||
+||Priscilla Vieira||||Gerente, Desenvolvedor, Testador||
