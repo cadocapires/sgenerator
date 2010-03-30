@@ -4,27 +4,31 @@
 === Iteração 1 - (31/03 - 15/04) ===
 US1
 ||  *Teste De Aceitação*  |||| *Status*||
-||Verificar o sucesso do estudo na aplicação. || ||||
+||Verificar o sucesso do estudo na aplicação. ||||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
+||A1.1||||Estudar algumas tecnologias a serem usadas.|||| Márcio e Priscilla||||10h|||||| ||||
 
 US2
 ||  *Teste De Aceitação*  |||| *Status*||
-|||| ||||
+||Verificar se o esquema lido é o de origem.||||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
+||A2.1||||Fazer a conexão com o SGBD.||||Márcio|||||10h|||||| |||| 
 
 
 === Iteração 2 - (15/03 - 29/04) ===
 
 US2
 ||  *Teste De Aceitação*  |||| *Status* ||
+||||Verificar se o esquema lido é o de origem.||||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
+||A2.2||||Retirar as informações das tabelas e salvá-las em alguma estrutura de dados.||||Márcio||||10h|||||| ||||
 
 US3
 ||  *Teste De Aceitação*  |||| *Status*||
-|||| ||||
+||TA3.1Verificar a semântica das palavras. TA3.2. Verificar se as palavras foraão inseridas corretamente. || ||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 
