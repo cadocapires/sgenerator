@@ -1,17 +1,10 @@
 = User Stories e Testes De Aceitação =
 
 || *US* |||| *Descrição* |||| *Estimativa* |||| *Teste de Aceitação* ||
-|| US1 ||||  ||||  ||||  ||
-|| US2 ||||  ||||  ||||  ||
-|| US3 ||||  ||||  ||||  ||
-|| US4 ||||  ||||  ||||  ||
-|| US5 ||||  ||||  ||||  ||
-|| US6 ||||  ||||  ||||  ||
-|| US7 ||||  ||||  ||||  ||
-
-
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+|| US1 ||||Estudo de tecnologias:SGBD Oracle, Java GWT...||||10h|||| Verificar o sucesso do estudo na aplicação ||
+|| US2 |||| Conexão com SGBD para buscar esquema base, recuperar tabelas, campos, relações a serem usados posteriormente. |||| 20h |||| Verificar se o esquema lido é o de origem.  ||
+|| US3 ||||Gerar e povoar dicionário de sinôminos. |||| 10h |||| Verificar a semântica das palavras e se palavras estão sendo inseridas corretamente. ||
+|| US4 |||| Gerar Esquemas aleatórios a partir de esquemas escolhidos. parâmetros deverão ser respeitados. |||| 20h ||||Verificar se os esquemas gerados estão de acordo com os parâmetros.  ||
+|| US5 ||||Gerar script  para cada esquema gerado. ||||20h ||||Verificar se o script está de acordo com o esquema base.  ||
+|| US6 |||| Apresentar grafo que representará o esquema gerado. Visualizar tabelas como vértices e relacionamentos como arestas.|||| 20h ||||Verificar se o grafo está representando corretamente o esquema.  ||
+|| US7 ||||Implementar requisitos não funcionais  ||||20h  |||| O cliente avaliará ps artefatos não funcionais. ||
