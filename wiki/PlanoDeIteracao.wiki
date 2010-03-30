@@ -18,12 +18,12 @@ US2
 === Iteração 2 - (15/03 - 29/04) ===
 
 US2
-|| *Teste De Aceitação* |||| *Status* ||
+||  *Teste De Aceitação*  |||| *Status* ||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 
 US3
-||*Teste De Aceitação*|||| *Status*||
+||  *Teste De Aceitação*  |||| *Status*||
 |||| ||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
@@ -32,25 +32,25 @@ US3
 === Iteração 3 - (29/04 - 13/05) ===
 
 US4
-||*Teste De Aceitação*|||| *Status*||
+||  *Teste De Aceitação*  |||| *Status*||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 
 === Iteração 4 - (13/05 - 27/05) ===
 
 US5
-||*Teste De Aceitação*|||| *Status*||
+||  *Teste De Aceitação*  |||| *Status*||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 
 === Iteração 5 - (27/05 - 10/06) ===
 US6
-||*Teste De Aceitação*|||| *Status*||
+||  *Teste De Aceitação*  |||| *Status*||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 
 === Iteração 6 - (10/06 - 01/07) ===
 US7
-||*Teste De Aceitação*|||| *Status*||
+||  *Teste De Aceitação*  |||| *Status*||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
