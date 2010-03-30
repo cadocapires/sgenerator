@@ -3,7 +3,7 @@
 ===Release 1 - (31/03 - 29/04) ===
 || *Iteração*|||| *User Story* |||| *Período*||
 ||Iteração 1|| ||US1, US2|| ||31/03 - 15/04||
-||Iteração 2|| |||| |151/03 - 29/04||
+||Iteração 2|| ||US3|| |151/03 - 29/04||
 
 ===Release 2 - (29/04 - 27/05)===
 ||*Iteração*||||*User Story*||||*Período*||
