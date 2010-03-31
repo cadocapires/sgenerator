@@ -68,7 +68,7 @@ US6
 
 === Iteração 6 - (10/06 - 01/07) ===
 US7
-||  *Teste De Aceitação*  |||| *Status*||
+||  *Teste De Aceitação*  |||| *Status* ||
 |||O cliente avaliará os artefatos não funcionais. |||||
 ||Verificar se o grafo está representando corretamente o esquema. ||||||
 
