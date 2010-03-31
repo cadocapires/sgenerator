@@ -2,4 +2,4 @@
 
 || *Equipe* |||| *Competências* ||
 ||Márcio Saraiva||||Oracle, Java||
-||Priscilla Vieira||||Oracle, SWT||
+||Priscilla Vieira||||Oracle, Java||
