@@ -5,6 +5,6 @@
 || US2 |||| Conexão com SGBD para buscar esquema base, recuperar tabelas, campos, relações a serem usados posteriormente. |||| 20h |||| Verificar se o esquema lido é o de origem.  ||
 || US3 ||||Gerar e povoar dicionário de sinôminos. |||| 10h |||| TA3.1Verificar a semântica das palavras. TA3.2. Verificar se as palavras foram inseridas corretamente. ||
 || US4 |||| Gerar Esquemas aleatórios a partir de esquemas escolhidos. parâmetros deverão ser respeitados. |||| 20h ||||Verificar se os esquemas gerados estão de acordo com os parâmetros.  ||
-|| US5 ||||Gerar script  para cada esquema gerado. ||||20h ||||TA5.1 Verificar se o script está de acordo com o esquema base. TA5.2 Verificar se o esquema gerado foi realmente salvo, caso o usuáriop tenha escolhido salvar.  ||
+|| US5 ||||Gerar script  para cada esquema gerado. ||||20h ||||TA5.1 Verificar se o script está de acordo com o esquema base. TA5.2 Verificar se o esquema gerado foi realmente salvo, caso o usuário tenha escolhido a opção para salvar.  ||
 || US6 |||| Apresentar grafo que representará o esquema gerado. Visualizar tabelas como vértices e relacionamentos como arestas.|||| 20h ||||Verificar se o grafo está representando corretamente o esquema.  ||
 || US7 ||||Implementar requisitos não funcionais.  ||||20h  |||| O cliente avaliará os artefatos não funcionais. ||
