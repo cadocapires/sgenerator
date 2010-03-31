@@ -70,4 +70,4 @@ Componente 05 - Dicionário de Sinônimos
 *Perfil do Usuário*
     
 
-    Profissionais da área de SI e banco de dados, professores, pesquisadores e desenvolvedores, que necessitam de um qtde consideravel de esquemas para simulação. O cliente alvo normalmente já tem algum conhecimento de informática e provavelmente não terá dificuldades com a ferramenta.
+    Profissionais da área de SI e banco de dados, professores, pesquisadores e desenvolvedores, que necessitam de uma grande quantidade de esquemas para simulação. O cliente alvo normalmente já tem algum conhecimento de informática e provavelmente não terá dificuldades com a ferramenta.
