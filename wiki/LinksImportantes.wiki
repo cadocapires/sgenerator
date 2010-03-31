@@ -1,7 +1,6 @@
-
 = Links Importantes =
 
 
-* [a href=http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.5.2-201002111343/eclipse-SDK-3.5.2-win32.zip] Eclipse Classic 3.5.2 [/a]
+* Eclipse Classic 3.5.2 : [http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.5.2-201002111343/eclipse-SDK-3.5.2-win32.zip]  
 
-*
+* JDK : [http://java.sun.com/javase/downloads/index.jsp]
