@@ -1,7 +1,7 @@
 = Tabela de Riscos =
 
 || *Data* |||| *Risco* |||| *Prioridade* |||| *Responsável* ||*Status* ||*Providência/Solucão*||
-|| 01/04 |||| Equipe com apenas 2 integrantes, grande chance de sobrecarga nos integrantes se houver muitas tarefas |||| Alta |||| Márcio ||Superado ||Discutir com o cliente a possível diminuição de tarefas||
-|| 01/04 |||| Falta de um integrante por motivo maior (doença, viagem etc.), vai causar 100% do trabalho sobre apenas uma pessoa |||| Alta |||| Todos ||Vigente ||Procurar adiantar atividades||
+|| 01/04 |||| Equipe com apenas 2 integrantes, grande chance de sobrecarga dos integrantes se houver muitas tarefas |||| Alta |||| Márcio ||Superado ||Discutir com o cliente a possível diminuição de tarefas||
+|| 01/04 |||| Falta de um integrante por motivo maior (doença, viagem etc.), causará 100% do trabalho sobre apenas uma pessoa |||| Alta |||| Todos ||Vigente ||Procurar adiantar atividades||
 || 01/04 |||| Estudo de Oracle 11g pode não ser satisfatório |||| Baixa |||| Márcio|| Vigente ||Rever com mais profundidade o assunto da disciplia BD2||
-|| 01/04 |||| Não encontrar ferramenta para gerar grafos automaticamente |||| Média |||| Priscilla ||Vigente ||Conversar com Giuseppe (monitor de usabilidade) que diz conhecer algumas ferramentas que podem facilitar nosso trabalho||
+|| 01/04 |||| Não encontrar ferramenta para gerar grafos automaticamente. |||| Média |||| Priscilla ||Vigente ||Conversar com Giuseppe (monitor de usabilidade) que diz conhecer algumas ferramentas que podem facilitar nosso trabalho||
