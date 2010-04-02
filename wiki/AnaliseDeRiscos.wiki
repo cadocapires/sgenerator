@@ -1,7 +1,6 @@
-
 = Tabela de Riscos =
 
-|| *Data* |||| *Risco* |||| *Prioridade* |||| *Responsável* || ||*Status*|| ||*Providência/Solucão*||
+|| *Data* |||| *Risco* |||| *Prioridade* |||| *Responsável* ||*Status* ||*Providência/Solucão*||
 || 01/04 |||| Equipe com apenas 2 integrantes, grande chance de sobrecarga nos integrantes se houver muitas tarefas |||| Alta |||| Márcio || ||Superado|| ||Discutir com o cliente a possível diminuição de tarefas||
 
 || 01/04 |||| Falta de um integrante por motivo maior (doença, viagem etc.), vai causar 100% do trabalho sobre apenas uma pessoa |||| Alta |||| Todos || ||Vigente|| ||Procurar adiantar atividades||
