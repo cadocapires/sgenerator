@@ -9,19 +9,19 @@ US1
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A1.1||||Estudar algumas tecnologias a serem usadas.|||| Márcio e Priscilla||||10h|||||| ||||
 
-US2
+US2.1
 ||  *Teste De Aceitação*  |||| *Status*||
-||Verificar se o esquema lido é o de origem.||||||
+||TA2.1.1 Verificar se o esquema lido é igual ao de origem.TA2.1.2 Verificar se o esquema lido pertence ao dado usuário.||||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
-||A2.1||||Fazer a conexão com o SGBD.||||Márcio|||||10h|||||| |||| 
+||A2.1||||Fazer a conexão com o SGBD dado um usuário.||||Márcio|||||10h|||||| |||| 
 
 
 === Iteração 2 - (15/03 - 29/04) ===
 
-US2
+US2.2
 ||  *Teste De Aceitação*  |||| *Status* ||
-||||Verificar se o esquema lido é o de origem.||||||
+||||TA2.2.1 Verificar se os campos lidos são iguais aos da tabela resgata. TA2.2.2 Verificar se os relacionamentos são iguais aos relacionamentos do esquema base.||||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A2.2||||Retirar as informações das tabelas e salvá-las em alguma estrutura de dados.||||Márcio||||10h|||||| ||||
