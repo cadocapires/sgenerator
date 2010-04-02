@@ -1,7 +1,7 @@
 = Plano de Release =
 
 ===Release 1 - (31/03 - 29/04) - Gerente: Márcio ===
-Gerente: Márcio
+
 || *Iteração*|||| *User Story* |||| *Período*||
 ||Iteração 1||||US1, US2.1||||31/03 - 15/04||
 ||Iteração 2||||US2.2, US3|||15/03 - 29/04||
@@ -13,7 +13,7 @@ Gerente: Márcio
 ||Iteração 4||||US5||||13/05 - 27/05||
 
 ===Release 3 - (27/05 - 01/07) - Gerente: Priscilla ===
-Gerente: Priscilla
+
 ||*Iteração*||||*User Story*||||*Período*||
 ||Iteração 5||||US6||||27/05 - 10/06||
 ||Iteração 6||||US7||||10/06 - 01/07||
