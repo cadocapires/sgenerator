@@ -1,13 +1,10 @@
 #summary Uma visão resumida das estatísticas de desenvolvimento.
+=Big Chart=
 
-= Introduction =
+|| *Data* |||| *Classes* |||| *Testes de Aceitação* |||| *Testes de Unidade* |||| *User Stories* ||
+||31/3/2010||||0||||0||||0||||0||
+||15/4/2010||||7||||0||||1||||2||
 
-Add your content here.
 
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+[http://sgenerator.googlecode.com/files/chart1.PNG]
