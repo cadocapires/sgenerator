@@ -1,7 +1,7 @@
 = User Stories e Testes De Aceitação =
 
 || *US* |||| *Descrição* |||| *Estimativa* |||| *Teste de Aceitação* ||
-|| US1 ||||Estudo de tecnologias:SGBD Oracle, Java GWT...||||10h|||| Verificar o sucesso do estudo fazendo uma breve apresentação para o cliente. ||
+|| US1 ||||Estudo de tecnologias:SGBD Oracle, Java GWT...||||10h|||| Verificar o sucesso do estudo mostrando um exemplo para o cliente que utiliza as tecnologias. ||
 || US2.1 |||| Conexão com SGBD, dado um usuário, para buscar esquema base. |||| 10h |||| TA2.1.1 Verificar se o esquema lido é igual ao de origem.TA2.1.2 Verificar se o esquema lido pertence ao dado usuário. ||
 || US2.2 |||| Recuperar tabelas, campos e relações a serem usados posteriormente. |||| 10h |||| TA2.2.1 Verificar se os campos lidos são iguais aos da tabela resgata. TA2.2.2 Verificar se os relacionamentos são iguais aos relacionamentos do esquema base. ||
 || US3 ||||Gerar e povoar dicionário de sinôminos. |||| 10h |||| TA3.1Verificar a semântica das palavras. TA3.2. Verificar se as palavras foram inseridas corretamente. ||
