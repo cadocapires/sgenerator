@@ -11,3 +11,5 @@
 [http://sgenerator.googlecode.com/files/1.5-Visualizar%20Esquema.png]
 
 [http://sgenerator.googlecode.com/files/1-Utilizar%20SchemaGenerator.png]
+
+[http://sgenerator.googlecode.com/files/tree.png]
