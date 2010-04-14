@@ -4,7 +4,7 @@
 === Iteração 1 - (31/03 - 15/04) ===
 US1
 ||  *Teste De Aceitação*  |||| *Status*||
-||Verificar o sucesso do estudo fazendo uma breve apresentação para o cliente.||||||
+||Verificar o sucesso do estudo mostrando um exemplo para o cliente que utiliza as tecnologias.||||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A1.1||||Estudar algumas tecnologias a serem usadas.|||| Márcio e Priscilla||||10h|||||| ||||
