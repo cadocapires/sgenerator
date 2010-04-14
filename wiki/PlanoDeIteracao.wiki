@@ -28,11 +28,11 @@ US2.2
 
 US3
 ||  *Teste De Aceitação*  |||| *Status*||
-||TA3.1Verificar a semântica das palavras. TA3.2. Verificar se as palavras foram inseridas corretamente. ||||||
+||TA3.1Verificar a semântica das palavras. TA3.2. Verificar se as palavras foram inseridas corretamente. |||C|||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A3.1||||Criar o dicionário de sinônimos.||||Priscilla||||5h|||||| ||||
-||A3.2||||Povoar o dicionário de sinônimos de acordo com alguns domínios específicos.||||Márcio||||2h|||||| ||||
+||A3.2||||Povoar o dicionário de sinônimos de acordo com alguns domínios específicos.||||Márcio||||2h|||||| ||C||
 
 
 === Iteração 3 - (29/04 - 13/05) ===
@@ -43,7 +43,7 @@ US4
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A4.1||||Criar função de geração.||||Priscilla||||10h|||||| ||||
-||A4.2||||Gerar esquemas.||||Priscilla||||10h|||||| ||||
+||A4.2||||Gerar esquemas.||||Priscilla||||10h|||||| ||C||
 
 === Iteração 4 - (13/05 - 27/05) ===
 
@@ -75,3 +75,5 @@ US7
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A6.1||||Contruir manual de uso.||||Priscilla||||15h|||||| ||||
 ||A6.2||||Contruir site da ferramenta.||||Márcio ||||15h|||||| ||||
+
+Os status C – concluído; D – em desenvolvimento A – abortada.
