@@ -7,14 +7,14 @@ US1
 ||Verificar o sucesso do estudo mostrando um exemplo para o cliente que utiliza as tecnologias.|||C|||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
-||A1.1||||Estudar algumas tecnologias a serem usadas.|||| Márcio e Priscilla||||10h|||||| ||C||
+||A1.1||||Estudar algumas tecnologias a serem usadas.|||| Márcio e Priscilla||||10h||||6h||||C||
 
 US2.1
 ||  *Teste De Aceitação*  |||| *Status*||
 ||TA2.1.1 Verificar se o esquema lido é igual ao de origem.TA2.1.2 Verificar se o esquema lido pertence ao dado usuário.||||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
-||A2.1.1||||Fazer a conexão com o SGBD dado um usuário.||||Márcio|||||10h|||||| ||C|| 
+||A2.1.1||||Fazer a conexão com o SGBD dado um usuário.||||Márcio|||||10h||||8h||||C|| 
 
 
 === Iteração 2 - (15/03 - 29/04) ===
