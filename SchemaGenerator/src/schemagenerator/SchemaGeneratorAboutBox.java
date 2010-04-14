@@ -14,7 +14,7 @@ public class SchemaGeneratorAboutBox extends javax.swing.JDialog {
         getRootPane().setDefaultButton(closeButton);
     }
 
-    @Action public void closeAboutBox() {
+    @Action public void closeAboutBox(){
         dispose();
     }
 
@@ -38,13 +38,13 @@ public class SchemaGeneratorAboutBox extends javax.swing.JDialog {
         javax.swing.JLabel imageLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(schemagenerator.SchemaGeneratorApp.class).getContext().getResourceMap(SchemaGeneratorAboutBox.class);
+        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(schemagenerator.SchemaGenerator.class).getContext().getResourceMap(SchemaGeneratorAboutBox.class);
         setTitle(resourceMap.getString("title")); // NOI18N
         setModal(true);
         setName("aboutBox"); // NOI18N
         setResizable(false);
 
-        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(schemagenerator.SchemaGeneratorApp.class).getContext().getActionMap(SchemaGeneratorAboutBox.class, this);
+        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(schemagenerator.SchemaGenerator.class).getContext().getActionMap(SchemaGeneratorAboutBox.class, this);
         closeButton.setAction(actionMap.get("closeAboutBox")); // NOI18N
         closeButton.setName("closeButton"); // NOI18N
 
@@ -98,7 +98,7 @@ public class SchemaGeneratorAboutBox extends javax.swing.JDialog {
                             .addComponent(appVendorLabel)
                             .addComponent(appHomepageLabel)))
                     .addComponent(appTitleLabel, javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(appDescLabel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 266, Short.MAX_VALUE)
+                    .addComponent(appDescLabel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 439, Short.MAX_VALUE)
                     .addComponent(closeButton))
                 .addContainerGap())
         );
@@ -109,7 +109,7 @@ public class SchemaGeneratorAboutBox extends javax.swing.JDialog {
                 .addContainerGap()
                 .addComponent(appTitleLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(appDescLabel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(appDescLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(versionLabel)
@@ -122,7 +122,7 @@ public class SchemaGeneratorAboutBox extends javax.swing.JDialog {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(homepageLabel)
                     .addComponent(appHomepageLabel))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 19, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
                 .addComponent(closeButton)
                 .addContainerGap())
         );
