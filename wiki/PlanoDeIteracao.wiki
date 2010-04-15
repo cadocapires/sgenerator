@@ -14,6 +14,7 @@ US2.1 - Conexão com SGBD, dado um usuário, para buscar esquema base.
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A2.1.1||||Fazer a conexão com o SGBD dado um usuário.||||Márcio|||||10h||||8h||||C|| 
+||A2.1.2||||Gerar testes de unidade para classes criadas.||||Priscilla|||||10h||||9h||||C|| 
 
 
 === Iteração 2 - (15/03 - 29/04) ===
@@ -24,14 +25,16 @@ US2.2 - Recuperar tabelas, campos e relações a serem usados posteriormente.
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A2.2.1||||Retirar as informações das tabelas e salvá-las em alguma estrutura de dados.||||Márcio||||10h|||||| ||||
+||A2.2.2||||Gerar testes de unidade para classes criadas.||||Priscilla||||10h|||||| ||||
 
 US3 - 	Gerar e povoar dicionário de sinôminos. 
 ||  *Teste De Aceitação*  |||| *Status*||
-||TA3.1Verificar a semântica das palavras. TA3.2. Verificar se as palavras foram inseridas corretamente. |||C|||
+||TA3.1Verificar a semântica das palavras. TA3.2. Verificar se as palavras foram inseridas corretamente. ||||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A3.1||||Criar o dicionário de sinônimos.||||Priscilla||||5h|||||| ||||
-||A3.2||||Povoar o dicionário de sinônimos de acordo com alguns domínios específicos.||||Márcio||||2h|||||| ||C||
+||A3.2||||Povoar o dicionário de sinônimos de acordo com alguns domínios específicos.||||Márcio||||2h|||||| ||||
+||A3.3||||Gerar testes de unidade para classes criadas.||||Márcio||||4h|||||| ||||
 
 
 === Iteração 3 - (29/04 - 13/05) ===
@@ -42,7 +45,8 @@ US4 - Gerar Esquemas aleatórios a partir de esquemas escolhidos. Parâmetros de
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A4.1||||Criar função de geração.||||Priscilla||||10h|||||| ||||
-||A4.2||||Gerar esquemas.||||Priscilla||||10h|||||| ||C||
+||A4.2||||Gerar esquemas.||||Priscilla||||10h|||||| ||||
+||A4.2||||Gerar teste para classes criadas.||||Márcio||||10h|||||| ||||
 
 === Iteração 4 - (13/05 - 27/05) ===
 
@@ -52,6 +56,7 @@ US5 - Gerar script para cada esquema gerado.
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A5.1||||Gerar script de saída dos esquemas gerados.||||Márcio||||20h|||||| ||||
+||A5.2||||Gerar teste de unidade para classes criadas.||||Priscilla||||10h|||||| ||||
 
 
 === Iteração 5 - (27/05 - 10/06) ===
@@ -63,7 +68,7 @@ US6 - Apresentar grafo que representará o esquema gerado. Visualizar tabelas co
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A5.1||||Representar graficamente os grafos.||||Márcio e Priscilla||||20h|||||| ||||
 ||A5.2||||Contruir toda a interface da ferramenta.||||Márcio e Priscilla||||20h|||||| ||||
-
+||A5.3||||Gerar teste de unidade para classes criadas.||||Márcio e Priscilla||||10h|||||| ||||
 
 === Iteração 6 - (10/06 - 01/07) ===
 US7 - Fazer site e manual de uso. 
