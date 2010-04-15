@@ -48,7 +48,7 @@ Componente 05 - Dicionário de Sinônimos
 
                 1) Identificar sinônimos (em inglês);
 
-                2) Res]cuperar sinônimo.
+                2) Recuperar sinônimo.
 
              
 
@@ -70,4 +70,4 @@ Componente 05 - Dicionário de Sinônimos
 *Perfil do Usuário*
     
 
-    Profissionais da área de SI e banco de dados, professores, pesquisadores e desenvolvedores, que necessitam de uma grande quantidade de esquemas para simulação. O cliente alvo normalmente já tem algum conhecimento de informática e provavelmente não terá dificuldades com a ferramenta.
+    Profissionais da área de SI e banco de dados, professores, pesquisadores e desenvolvedores, que necessitam de uma grande quantidade de esquemas para simulação. O cliente alvo normalmente já tem algum conhecimento de informática e provavelmente não terá dificuldades com a ferramenta, mas caso seja necessário mais informações de uso poderão ser vistas no manual e no site do produto que estará facilmente acessível para consultas. O programa será executado em computadores da academia ou computadores pessoais.
