@@ -8,4 +8,4 @@
 || US4 |||| Gerar Esquemas aleatórios a partir de esquemas escolhidos. parâmetros deverão ser respeitados. |||| 20h ||||Verificar se os esquemas gerados estão de acordo com os parâmetros.  ||
 || US5 ||||Gerar script  para cada esquema gerado. ||||20h ||||TA5.1 Verificar se o script está de acordo com o esquema base. TA5.2 Verificar se o esquema gerado foi realmente salvo, caso o usuário tenha escolhido a opção para salvar.  ||
 || US6 |||| Apresentar grafo que representará o esquema gerado. Visualizar tabelas como vértices e relacionamentos como arestas.|||| 20h ||||Verificar se o grafo está representando corretamente o esquema.  ||
-|| US7 ||||Implementar requisitos não funcionais.  ||||20h  |||| O cliente avaliará os artefatos não funcionais. ||
+|| US7 ||||Fazer site e manual de uso.  ||||20h  |||| O cliente avaliará os artefatos. ||
