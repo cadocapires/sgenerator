@@ -1,0 +1,24 @@
+
+SELECT c.table_name taborigem, c.column_name colorigem, col1.data_type
+dt, col1.data_length dl, col1.data_precision dp, col1.data_scale ds,
+col1.nullable nu, p.table_name tabdestino, p.column_name coldestino,
+col2.data_type dt, col2.data_length dl, col2.data_precision dp,
+col2.data_scale ds, col2.nullable nu
+FROM  (SELECT x.constraint_name, y.column_name, x.table_name,
+x.constraint_type, x.r_owner, x.r_constraint_name
+      FROM   user_constraints x, user_cons_columns y
+      WHERE  x.constraint_name = y.constraint_name) c,
+     (SELECT x.constraint_name, y.column_name, x.table_name,
+x.constraint_type, x.owner
+      FROM   user_constraints x, user_cons_columns y
+      WHERE  x.constraint_name = y.constraint_name) p,
+      user_tab_columns col1,
+      user_tab_columns col2
+WHERE  c.constraint_type = 'R'
+AND    c.r_owner = p.owner
+AND    c.r_constraint_name = p.constraint_name
+AND    c.column_name = col1.column_name
+AND    c.table_name = col1.table_name
+AND    p.column_name = col2.column_name
+AND    p.table_name = col2.table_name
+ORDER BY c.table_name;
