@@ -2,8 +2,7 @@
 == Tabela de Alocação de Tarefas ==
 
 === Iteração 1 - (31/03 - 15/04) ===
-US1 - Estudo de tecnologias:SGBD Oracle, Java GWT.
-||  *Teste De Aceitação*  |||| *Status*||
+US1 - Estudo de tecnologias:SGBD Oracle, Java GWT.||  *Teste De Aceitação*  |||| *Status*||
 ||Verificar o sucesso do estudo mostrando um exemplo para o cliente que utiliza as tecnologias.|||C|||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
