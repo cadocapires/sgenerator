@@ -10,7 +10,7 @@ US1 - Estudo de tecnologias:SGBD Oracle, Java GWT.||  *Teste De Aceitação*  ||
 
 US2.1 - Conexão com SGBD, dado um usuário, para buscar esquema base. 
 ||  *Teste De Aceitação*  |||| *Status*||
-||TA2.1.1 Verificar se o esquema lido é igual ao de origem.TA2.1.2 Verificar se o esquema lido pertence ao dado usuário.||||||
+||TA2.1.1 Verificar se o esquema lido é igual ao de origem.TA2.1.2 Verificar se o esquema lido pertence ao dado usuário.||||C||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A2.1.1||||Fazer a conexão com o SGBD dado um usuário.||||Márcio|||||10h||||8h||||C|| 
