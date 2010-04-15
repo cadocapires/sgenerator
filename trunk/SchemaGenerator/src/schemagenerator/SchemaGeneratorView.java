@@ -1,9 +1,11 @@
 /*
- * SchemaGeneratorView.java
+ * SchemaGenaratorView.java
  */
 
 package schemagenerator;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import org.jdesktop.application.Action;
 import org.jdesktop.application.ResourceMap;
 import org.jdesktop.application.SingleFrameApplication;
@@ -79,16 +81,31 @@ public class SchemaGeneratorView extends FrameView {
                 }
             }
         });
+    
     }
 
     @Action
     public void showAboutBox() {
         if (aboutBox == null) {
-            JFrame mainFrame = SchemaGeneratorApp.getApplication().getMainFrame();
+            JFrame mainFrame = SchemaGenerator.getApplication().getMainFrame();
             aboutBox = new SchemaGeneratorAboutBox(mainFrame);
             aboutBox.setLocationRelativeTo(mainFrame);
         }
-        SchemaGeneratorApp.getApplication().show(aboutBox);
+        SchemaGenerator.getApplication().show(aboutBox);
+    }
+    @Action
+    public void showLoadSchema() throws FileNotFoundException, IOException, ClassNotFoundException {
+
+        if (loginPassword == null) {
+            JFrame mainFrame = SchemaGenerator.getApplication().getMainFrame();
+            loginPassword = new SchemaGeneratorLoginPassword(mainFrame);
+            loginPassword.setLocationRelativeTo(mainFrame);
+        }
+            SchemaGenerator.getApplication().show(loginPassword);
+            Search search = new Search();
+            readFile read = new readFile();
+            read.readThis(search.searchFile());
+        
     }
 
     /** This method is called from within the constructor to
@@ -104,6 +121,8 @@ public class SchemaGeneratorView extends FrameView {
         menuBar = new javax.swing.JMenuBar();
         javax.swing.JMenu fileMenu = new javax.swing.JMenu();
         javax.swing.JMenuItem exitMenuItem = new javax.swing.JMenuItem();
+        javax.swing.JMenu helpMenu1 = new javax.swing.JMenu();
+        javax.swing.JMenuItem aboutMenuItem1 = new javax.swing.JMenuItem();
         javax.swing.JMenu helpMenu = new javax.swing.JMenu();
         javax.swing.JMenuItem aboutMenuItem = new javax.swing.JMenuItem();
         statusPanel = new javax.swing.JPanel();
@@ -122,21 +141,32 @@ public class SchemaGeneratorView extends FrameView {
         );
         mainPanelLayout.setVerticalGroup(
             mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 252, Short.MAX_VALUE)
+            .addGap(0, 249, Short.MAX_VALUE)
         );
 
         menuBar.setName("menuBar"); // NOI18N
 
-        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(schemagenerator.SchemaGeneratorApp.class).getContext().getResourceMap(SchemaGeneratorView.class);
+        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(schemagenerator.SchemaGenerator.class).getContext().getResourceMap(SchemaGeneratorView.class);
         fileMenu.setText(resourceMap.getString("fileMenu.text")); // NOI18N
         fileMenu.setName("fileMenu"); // NOI18N
 
-        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(schemagenerator.SchemaGeneratorApp.class).getContext().getActionMap(SchemaGeneratorView.class, this);
+        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(schemagenerator.SchemaGenerator.class).getContext().getActionMap(SchemaGeneratorView.class, this);
         exitMenuItem.setAction(actionMap.get("quit")); // NOI18N
         exitMenuItem.setName("exitMenuItem"); // NOI18N
         fileMenu.add(exitMenuItem);
 
         menuBar.add(fileMenu);
+
+        helpMenu1.setText(resourceMap.getString("helpMenu1.text")); // NOI18N
+        helpMenu1.setName("helpMenu1"); // NOI18N
+
+        aboutMenuItem1.setAction(actionMap.get("showLoadSchema")); // NOI18N
+        aboutMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.CTRL_MASK));
+        aboutMenuItem1.setText(resourceMap.getString("aboutMenuItem1.text")); // NOI18N
+        aboutMenuItem1.setName("aboutMenuItem1"); // NOI18N
+        helpMenu1.add(aboutMenuItem1);
+
+        menuBar.add(helpMenu1);
 
         helpMenu.setText(resourceMap.getString("helpMenu.text")); // NOI18N
         helpMenu.setName("helpMenu"); // NOI18N
@@ -166,7 +196,7 @@ public class SchemaGeneratorView extends FrameView {
             .addGroup(statusPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(statusMessageLabel)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 226, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 230, Short.MAX_VALUE)
                 .addComponent(progressBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(statusAnimationLabel)
@@ -205,4 +235,5 @@ public class SchemaGeneratorView extends FrameView {
     private int busyIconIndex = 0;
 
     private JDialog aboutBox;
+    private JDialog loginPassword;
 }
