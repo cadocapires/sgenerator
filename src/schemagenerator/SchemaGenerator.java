@@ -1,8 +1,8 @@
 /*
- * DesktopApplication1.java
+ * SchemaGenerator.java
  */
 
-package desktopapplication1;
+package schemagenerator;
 
 import org.jdesktop.application.Application;
 import org.jdesktop.application.SingleFrameApplication;
@@ -10,13 +10,13 @@ import org.jdesktop.application.SingleFrameApplication;
 /**
  * The main class of the application.
  */
-public class DesktopApplication1 extends SingleFrameApplication {
+public class SchemaGenerator extends SingleFrameApplication {
 
     /**
      * At startup create and show the main frame of the application.
      */
     @Override protected void startup() {
-        show(new DesktopApplication1View(this));
+        show(new SchemaGeneratorView(this));
     }
 
     /**
@@ -29,16 +29,16 @@ public class DesktopApplication1 extends SingleFrameApplication {
 
     /**
      * A convenient static getter for the application instance.
-     * @return the instance of DesktopApplication1
+     * @return the instance of SchemaGenerator
      */
-    public static DesktopApplication1 getApplication() {
-        return Application.getInstance(DesktopApplication1.class);
+    public static SchemaGenerator getApplication() {
+        return Application.getInstance(SchemaGenerator.class);
     }
 
     /**
      * Main method launching the application.
      */
     public static void main(String[] args) {
-        launch(DesktopApplication1.class, args);
+        launch(SchemaGenerator.class, args);
     }
 }

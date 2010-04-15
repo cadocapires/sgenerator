@@ -6,11 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.sql.*;
 
-/**
- * 
- * @author priscilla
- */
-public class Connect {
+    public class Connect {
 
         public String connected(String login, String password) throws ClassNotFoundException, IOException {
           String name = "";
