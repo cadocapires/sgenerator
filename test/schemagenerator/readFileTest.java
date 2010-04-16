@@ -14,11 +14,11 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author demontie
+ * @author Márcio
  */
-public class DesktopApplication1AboutBoxTest {
+public class readFileTest {
 
-    public DesktopApplication1AboutBoxTest() {
+    public readFileTest() {
     }
 
     @BeforeClass
@@ -38,15 +38,16 @@ public class DesktopApplication1AboutBoxTest {
     }
 
     /**
-     * Test of closeAboutBox method, of class SchemaGeneratorAboutBox.
+     * Test of readThis method, of class readFile.
      */
     @Test
-    public void testCloseAboutBox() {
-        System.out.println("closeAboutBox");
-        SchemaGeneratorAboutBox instance = null;
-        instance.closeAboutBox();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testReadThis() throws Exception {
+        System.out.println("readThis");
+        String address = "C:\\Documents and Settings\\test.txt";
+        readFile instance = new readFile();
+        instance.readThis(address);
+        //create a document. txt with the name "test" C: \ Documents and Settings \ and using this test.
     }
+
 
 }
