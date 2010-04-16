@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author Márcio
  */
-public class ConnectTest {
+public class SearchTest {
 
-    public ConnectTest() {
+    public SearchTest() {
     }
 
     @BeforeClass
@@ -38,23 +38,19 @@ public class ConnectTest {
     }
 
     /**
-     * Test of connected method, of class Connect.
+     * Test of searchFile method, of class Search.
      */
     @Test
-    public void testConnected() throws Exception {
-        System.out.println("connected");
-        String login = "tpce";
-        String password = "tpce";
-        Connect instance = new Connect();
-        String expResult = " Priscilla Márcio";
-        String result = instance.connected(login, password);
+    public void testSearchFile() {
+        System.out.println("searchFile");
+        String expResult = "";
+        //click on "cancel"
+        String result = Search.searchFile();
         assertEquals(expResult, result);
-        login = "errado";
-        password= "errado";
-        expResult ="";
-        result = instance.connected(login, password);
+        expResult = "C:\\Documents and Settings\\test.txt";
+        result = Search.searchFile();
         assertEquals(expResult, result);
- 
+        //create a document. txt with the name "test" C: \ Documents and Settings \ and open using this test.
     }
 
 }
