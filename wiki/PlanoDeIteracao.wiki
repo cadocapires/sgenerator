@@ -17,7 +17,7 @@ US2.1 - Conexão com SGBD, dado um usuário, para buscar esquema base.
 ||A2.1.2||||Gerar testes de unidade para classes criadas.||||Priscilla|||||10h||||9h||||C|| 
 
 
-=== Iteração 2 - (15/03 - 29/04) ===
+=== Iteração 2 - (15/04 - 29/04) ===
 
 US2.2 - Recuperar tabelas, campos e relações a serem usados posteriormente. 
 ||  *Teste De Aceitação*  |||| *Status* ||
