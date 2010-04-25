@@ -7,7 +7,7 @@ package schemagenerator;
 
 /**
  *
- * @author Priscill
+ * @author Priscilla
  */
 public class Dictionary {
 
