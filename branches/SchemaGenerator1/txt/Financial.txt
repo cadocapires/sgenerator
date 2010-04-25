@@ -1,1 +1,28 @@
-casa
+account_permission = acc_permission
+customer = client
+customer_account = customerAccount
+customer_taxrate = taxClient
+customer_taxrate = taxCustomer
+cash_transaction = cashTransaction
+financial burden = charge
+commission_rate = commissionRate
+trade = transaction
+trade = business
+trade_history = tradeHistory
+trade_history = transactionHistory
+trade_request = tradeRequest
+trade_request = transactionRequest
+trade_type = tradeType
+trade_type = transactionType
+broker = agent
+settlement = sett_lement
+holding_history = holdingHistory
+holding_summary = holdingSummary
+watch_item = watchItem
+holding = placement_of_capital
+watch_list = watchList
+
+
+
+
+
