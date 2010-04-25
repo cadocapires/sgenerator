@@ -102,9 +102,9 @@ public class SchemaGeneratorView extends FrameView {
             loginPassword.setLocationRelativeTo(mainFrame);
         }
             SchemaGenerator.getApplication().show(loginPassword);
-            Search search = new Search();
+           /* Search search = new Search();
             readFile read = new readFile();
-            read.readThis(search.searchFile());
+            read.readThis(search.searchFile());*/
         
     }
 

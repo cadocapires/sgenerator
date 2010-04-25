@@ -10,7 +10,7 @@ import javax.swing.JFrame;
 
     public class Connect {
 
-        public String connected(String login, String password) throws ClassNotFoundException, IOException {
+        public String connected(String address, String login, String password) throws ClassNotFoundException, IOException {
           String name = "";
           boolean sucess = true;
           ConnectionBox sucessBox = null;
@@ -18,8 +18,7 @@ import javax.swing.JFrame;
 
                 Class.forName("oracle.jdbc.driver.OracleDriver");
 
-
-                Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@150.165.75.171",login,password);
+                Connection conn = DriverManager.getConnection(address,login,password);
                 Statement st = conn.createStatement();
 
                /*File f = new File("C:/Documents and Settings/demontie/Desktop/aki/sql.txt");
@@ -38,21 +37,21 @@ import javax.swing.JFrame;
 
         		System.out.println(sql);
                 */
-                ResultSet rs = st.executeQuery("Select * from Usuario");
+                ResultSet rs = st.executeQuery("Select * from Help");
                 sucess = true;
                 while(rs.next()) {
                    //String name =  rs.getString("TABORIGEM");
-                	String nome =  rs.getString("NOME");
+                    String nome =  rs.getString("INFO");
                     name = name + " " + nome;
 
                    //System.out.println(name);
                 }
             }catch(SQLException e) {
                 System.out.print("");
-                System.out.println("Erro ao conectar com o banco");
+                System.out.println("Error connecting to the bank");
                 sucess =false;
             } finally {
-                System.out.println("Conexao finalizada....");
+                System.out.println("Connection terminated....");
                 if (sucessBox == null) {
                         JFrame mainFrame = SchemaGenerator.getApplication().getMainFrame();
                         sucessBox = new ConnectionBox(mainFrame);
@@ -72,4 +71,5 @@ import javax.swing.JFrame;
             return name;
         }
 
+    
     }

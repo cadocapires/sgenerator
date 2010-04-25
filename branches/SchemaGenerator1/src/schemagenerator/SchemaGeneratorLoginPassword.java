@@ -24,7 +24,7 @@ public class SchemaGeneratorLoginPassword extends javax.swing.JDialog {
     
    @Action public void dataForm() throws ClassNotFoundException, IOException {
         Connect connecting = new Connect();
-        System.out.println(connecting.connected(jTextField1.getText(), jPasswordField1.getText()));
+        System.out.println(connecting.connected(jTextField1.getText(),jTextField2.getText(), jPasswordField1.getText()));
         dispose();
     }
 
@@ -42,6 +42,8 @@ public class SchemaGeneratorLoginPassword extends javax.swing.JDialog {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jPasswordField1 = new javax.swing.JPasswordField();
+        jLabel3 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(schemagenerator.SchemaGenerator.class).getContext().getResourceMap(SchemaGeneratorLoginPassword.class);
@@ -51,12 +53,18 @@ public class SchemaGeneratorLoginPassword extends javax.swing.JDialog {
         setResizable(false);
 
         javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(schemagenerator.SchemaGenerator.class).getContext().getActionMap(SchemaGeneratorLoginPassword.class, this);
-        closeButton.setAction(actionMap.get("closeAboutBox")); // NOI18N
+        closeButton.setAction(actionMap.get("dataForm")); // NOI18N
         closeButton.setText(resourceMap.getString("closeButton.text")); // NOI18N
+        closeButton.setDefaultCapable(false);
+        closeButton.setFocusPainted(false);
+        closeButton.setFocusable(false);
         closeButton.setName("closeButton"); // NOI18N
+        closeButton.setRequestFocusEnabled(false);
+        closeButton.setRolloverEnabled(false);
 
-        closeButton1.setAction(actionMap.get("dataForm")); // NOI18N
+        closeButton1.setAction(actionMap.get("closeAboutBox")); // NOI18N
         closeButton1.setText(resourceMap.getString("closeButton1.text")); // NOI18N
+        closeButton1.setFocusCycleRoot(true);
         closeButton1.setName("closeButton1"); // NOI18N
 
         jTextField1.setText(resourceMap.getString("login.text")); // NOI18N
@@ -71,48 +79,58 @@ public class SchemaGeneratorLoginPassword extends javax.swing.JDialog {
         jPasswordField1.setText(resourceMap.getString("jPasswordField1.text")); // NOI18N
         jPasswordField1.setName("jPasswordField1"); // NOI18N
 
+        jLabel3.setText(resourceMap.getString("jLabel3.text")); // NOI18N
+        jLabel3.setName("jLabel3"); // NOI18N
+
+        jTextField2.setText(resourceMap.getString("jTextField2.text")); // NOI18N
+        jTextField2.setName("jTextField2"); // NOI18N
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(348, Short.MAX_VALUE)
-                .addComponent(closeButton1)
-                .addGap(18, 18, 18)
-                .addComponent(closeButton)
-                .addContainerGap())
             .addGroup(layout.createSequentialGroup()
-                .addGap(50, 50, 50)
+                .addGap(68, 68, 68)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addGap(25, 25, 25)))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
-                    .addComponent(jPasswordField1))
-                .addContainerGap(265, Short.MAX_VALUE))
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel3))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 289, Short.MAX_VALUE)
+                    .addComponent(jPasswordField1, javax.swing.GroupLayout.DEFAULT_SIZE, 289, Short.MAX_VALUE)
+                    .addComponent(jTextField2, javax.swing.GroupLayout.DEFAULT_SIZE, 289, Short.MAX_VALUE))
+                .addGap(140, 140, 140))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(433, Short.MAX_VALUE)
+                .addComponent(closeButton)
+                .addGap(11, 11, 11)
+                .addComponent(closeButton1)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(32, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2))
-                .addGap(60, 60, 60)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(closeButton)
-                    .addComponent(closeButton1))
-                .addContainerGap())
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap(33, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel1)
+                            .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel2)
+                            .addComponent(jPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel3)
+                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(62, 62, 62))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(closeButton)
+                            .addComponent(closeButton1))
+                        .addContainerGap())))
         );
 
         pack();
@@ -123,8 +141,10 @@ public class SchemaGeneratorLoginPassword extends javax.swing.JDialog {
     private javax.swing.JButton closeButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
     // End of variables declaration//GEN-END:variables
     
 }

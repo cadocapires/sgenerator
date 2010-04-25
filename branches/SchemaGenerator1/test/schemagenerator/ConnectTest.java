@@ -45,14 +45,16 @@ public class ConnectTest {
         System.out.println("connected");
         String login = "tpce";
         String password = "tpce";
+        String address ="jdbc:oracle:thin:@150.165.75.171";
         Connect instance = new Connect();
         String expResult = " Priscilla Márcio";
-        String result = instance.connected(login, password);
+        String result = instance.connected(address,login, password);
         assertEquals(expResult, result);
         login = "errado";
         password= "errado";
+        address = "jdbc:oracle:thin:@150.165.75.171";
         expResult ="";
-        result = instance.connected(login, password);
+        result = instance.connected(address,login, password);
         assertEquals(expResult, result);
  
     }
