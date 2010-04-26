@@ -101,11 +101,22 @@ public class SchemaGeneratorView extends FrameView {
             loginPassword = new SchemaGeneratorLoginPassword(mainFrame);
             loginPassword.setLocationRelativeTo(mainFrame);
         }
-            SchemaGenerator.getApplication().show(loginPassword);
+            SchemaGenerator.getApplication().show(loginPassword);        
+    }
+
+    @Action
+    public void showViewDictionary() throws FileNotFoundException, IOException, ClassNotFoundException {
+
+        if (dictionary == null) {
+            JFrame mainFrame = SchemaGenerator.getApplication().getMainFrame();
+            dictionary = new SchemaGeneratorViewDictionary(mainFrame);
+            dictionary.setLocationRelativeTo(mainFrame);
+        }
+            SchemaGenerator.getApplication().show(dictionary);
            /* Search search = new Search();
             readFile read = new readFile();
             read.readThis(search.searchFile());*/
-        
+
     }
 
     /** This method is called from within the constructor to
@@ -123,6 +134,8 @@ public class SchemaGeneratorView extends FrameView {
         javax.swing.JMenuItem exitMenuItem = new javax.swing.JMenuItem();
         javax.swing.JMenu helpMenu1 = new javax.swing.JMenu();
         javax.swing.JMenuItem aboutMenuItem1 = new javax.swing.JMenuItem();
+        javax.swing.JMenu helpMenu2 = new javax.swing.JMenu();
+        javax.swing.JMenuItem aboutMenuItem2 = new javax.swing.JMenuItem();
         javax.swing.JMenu helpMenu = new javax.swing.JMenu();
         javax.swing.JMenuItem aboutMenuItem = new javax.swing.JMenuItem();
         statusPanel = new javax.swing.JPanel();
@@ -161,12 +174,21 @@ public class SchemaGeneratorView extends FrameView {
         helpMenu1.setName("helpMenu1"); // NOI18N
 
         aboutMenuItem1.setAction(actionMap.get("showLoadSchema")); // NOI18N
-        aboutMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.CTRL_MASK));
         aboutMenuItem1.setText(resourceMap.getString("aboutMenuItem1.text")); // NOI18N
         aboutMenuItem1.setName("aboutMenuItem1"); // NOI18N
         helpMenu1.add(aboutMenuItem1);
 
         menuBar.add(helpMenu1);
+
+        helpMenu2.setText(resourceMap.getString("helpMenu2.text")); // NOI18N
+        helpMenu2.setName("helpMenu2"); // NOI18N
+
+        aboutMenuItem2.setAction(actionMap.get("showViewDictionary")); // NOI18N
+        aboutMenuItem2.setText(resourceMap.getString("aboutMenuItem2.text")); // NOI18N
+        aboutMenuItem2.setName("aboutMenuItem2"); // NOI18N
+        helpMenu2.add(aboutMenuItem2);
+
+        menuBar.add(helpMenu2);
 
         helpMenu.setText(resourceMap.getString("helpMenu.text")); // NOI18N
         helpMenu.setName("helpMenu"); // NOI18N
@@ -236,4 +258,5 @@ public class SchemaGeneratorView extends FrameView {
 
     private JDialog aboutBox;
     private JDialog loginPassword;
+     private JDialog dictionary;
 }

@@ -15,37 +15,17 @@ import javax.swing.JFrame;
           boolean sucess = true;
           ConnectionBox sucessBox = null;
             try {
-
                 Class.forName("oracle.jdbc.driver.OracleDriver");
-
                 Connection conn = DriverManager.getConnection(address,login,password);
                 Statement st = conn.createStatement();
-
-               /*File f = new File("C:/Documents and Settings/demontie/Desktop/aki/sql.txt");
-        		FileReader rd = new FileReader(f);
-        		BufferedReader brd = new BufferedReader(rd);
-
-        		String sql = "";
-        		while (brd.ready()){
-        			String dados = brd.readLine()+" ";
-        			if(!dados.equals("") && !dados.equals(" ")){
-        					sql= sql+dados;
-        			}
-        		}
-
-        		brd.close();
-
-        		System.out.println(sql);
-                */
-                ResultSet rs = st.executeQuery("Select * from Help");
+              //ResultSet rs = st.executeQuery("SELECT c.table_name taborigem, c.column_name colorigem, p.table_name tabdestino, p.column_name coldestino FROM  (SELECT x.constraint_name, y.column_name, x.table_name, x.constraint_type, x.r_owner, x.r_constraint_name FROM   user_constraints x, user_cons_columns y WHERE  x.constraint_name = y.constraint_name) c, (SELECT x.constraint_name, y.column_name, x.table_name, x.constrain)");
+                ResultSet rs = st.executeQuery("SELECT * FROM HELP");
                 sucess = true;
                 while(rs.next()) {
-                   //String name =  rs.getString("TABORIGEM");
-                    String nome =  rs.getString("INFO");
+              //String nome =  rs.getString("TABORIGEM");
+                  String nome =  rs.getString("INFO");
                     name = name + " " + nome;
-
-                   //System.out.println(name);
-                }
+                 }
             }catch(SQLException e) {
                 System.out.print("");
                 System.out.println("Error connecting to the bank");
