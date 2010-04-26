@@ -27,7 +27,7 @@ public class SchemaGeneratorViewDictionary extends javax.swing.JDialog {
          textArea1.setText("");
          String theme = (String) jComboBox1.getSelectedItem();
          textArea1.setEditable(false);
-         File f = new File("C:/Documents and Settings/"+theme+".txt");
+         File f = new File("C:/Documents and Settings/priscilla/Desktop"+theme+".txt");
          FileReader rd = new FileReader(f);
          BufferedReader brd = new BufferedReader(rd);
          String line = "";
