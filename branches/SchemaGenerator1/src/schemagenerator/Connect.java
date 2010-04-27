@@ -11,26 +11,27 @@ import javax.swing.JFrame;
     public class Connect {
 
         public String connected(String address, String login, String password) throws ClassNotFoundException, IOException {
-          String name = "";
+          String results = "";
           boolean sucess = true;
           ConnectionBox sucessBox = null;
             try {
                 Class.forName("oracle.jdbc.driver.OracleDriver");
                 Connection conn = DriverManager.getConnection(address,login,password);
                 Statement st = conn.createStatement();
-              ResultSet rs = st.executeQuery("SELECT c.table_name taborigem, c.column_name colorigem, p.table_name tabdestino, p.column_name coldestino FROM  (SELECT x.constraint_name, y.column_name, x.table_name, x.constraint_type, x.r_owner, x.r_constraint_name FROM   user_constraints x, user_cons_columns y       WHERE  x.constraint_name = y.constraint_name) c,     (SELECT x.constraint_name, y.column_name, x.table_name, x.constraint_type, x.owner       FROM   user_constraints x, user_cons_columns y       WHERE  x.constraint_name = y.constraint_name) p,       user_tab_columns col1,       user_tab_columns col2 WHERE  c.constraint_type = 'R' AND    c.r_owner = p.owner AND    c.r_constraint_name = p.constraint_name AND    c.column_name = col1.column_name AND    c.table_name = col1.table_name AND    p.column_name = col2.column_name AND    p.table_name = col2.table_name ORDER BY c.table_name");
-              //ResultSet rs = st.executeQuery("SELECT * FROM  Usuario");
+                ResultSet rs = st.executeQuery("SELECT c.table_name taborigem, c.column_name colorigem, p.table_name tabdestino, p.column_name coldestino FROM  (SELECT x.constraint_name, y.column_name, x.table_name, x.constraint_type, x.r_owner, x.r_constraint_name FROM   user_constraints x, user_cons_columns y       WHERE  x.constraint_name = y.constraint_name) c,     (SELECT x.constraint_name, y.column_name, x.table_name, x.constraint_type, x.owner       FROM   user_constraints x, user_cons_columns y       WHERE  x.constraint_name = y.constraint_name) p,       user_tab_columns col1,       user_tab_columns col2 WHERE  c.constraint_type = 'R' AND    c.r_owner = p.owner AND    c.r_constraint_name = p.constraint_name AND    c.column_name = col1.column_name AND    c.table_name = col1.table_name AND    p.column_name = col2.column_name AND    p.table_name = col2.table_name ORDER BY c.table_name");
+             
                 sucess = true;
 
-                System.out.println("TABELA ORIGEM" + " " + "TABELA DESTINO");
+                System.out.println("TABELA ORIGEM" + " -> " + "TABELA DESTINO");
 
                 while(rs.next()) {
-              //String nome =  rs.getString("TABORIGEM");                  
-                  String nomeOrigem =  rs.getString("TABORIGEM");
-                  String nomeDestino =  rs.getString("TABDESTINO");
+                       
+                  String nameOrigin =  rs.getString("TABORIGEM");
+                  String nameDestination =  rs.getString("TABDESTINO");
 
-                  System.out.println(nomeOrigem + " " + nomeDestino);
-                  //nameOrigem = nameOrigem + " " + nomeOrigem;
+                  //System.out.println(nameOrigin + " -> " + nameDestination);
+                  results += nameOrigin + " -> " + nameDestination +";";
+                
                  }
             }catch(SQLException e) {
                 System.out.print("");
@@ -54,7 +55,7 @@ import javax.swing.JFrame;
                 }
 
             }
-            return name;
+            return results;
         }
 
     

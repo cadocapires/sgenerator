@@ -9,6 +9,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import org.jdesktop.application.Action;
 
 public class SchemaGeneratorViewDictionary extends javax.swing.JDialog {
@@ -27,8 +29,8 @@ public class SchemaGeneratorViewDictionary extends javax.swing.JDialog {
          textArea1.setText("");
          String theme = (String) jComboBox1.getSelectedItem();
          textArea1.setEditable(false);
-         File f = new File("C:/Documents and Settings/priscilla/Desktop"+theme+".txt");
-         FileReader rd = new FileReader(f);
+         InputStream f = SchemaGeneratorViewDictionary.class.getResourceAsStream(theme+".txt");
+         InputStreamReader rd = new InputStreamReader(f);
          BufferedReader brd = new BufferedReader(rd);
          String line = "";
          int numberLine =0;

@@ -174,6 +174,7 @@ public class SchemaGeneratorView extends FrameView {
         helpMenu1.setName("helpMenu1"); // NOI18N
 
         aboutMenuItem1.setAction(actionMap.get("showLoadSchema")); // NOI18N
+        aboutMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.CTRL_MASK));
         aboutMenuItem1.setText(resourceMap.getString("aboutMenuItem1.text")); // NOI18N
         aboutMenuItem1.setName("aboutMenuItem1"); // NOI18N
         helpMenu1.add(aboutMenuItem1);
@@ -184,6 +185,7 @@ public class SchemaGeneratorView extends FrameView {
         helpMenu2.setName("helpMenu2"); // NOI18N
 
         aboutMenuItem2.setAction(actionMap.get("showViewDictionary")); // NOI18N
+        aboutMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.CTRL_MASK));
         aboutMenuItem2.setText(resourceMap.getString("aboutMenuItem2.text")); // NOI18N
         aboutMenuItem2.setName("aboutMenuItem2"); // NOI18N
         helpMenu2.add(aboutMenuItem2);
@@ -194,6 +196,7 @@ public class SchemaGeneratorView extends FrameView {
         helpMenu.setName("helpMenu"); // NOI18N
 
         aboutMenuItem.setAction(actionMap.get("showAboutBox")); // NOI18N
+        aboutMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_H, java.awt.event.InputEvent.CTRL_MASK));
         aboutMenuItem.setName("aboutMenuItem"); // NOI18N
         helpMenu.add(aboutMenuItem);
 

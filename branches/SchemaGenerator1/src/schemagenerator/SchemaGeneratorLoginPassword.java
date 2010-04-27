@@ -4,8 +4,11 @@
 
 package schemagenerator;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JFrame;
 import org.jdesktop.application.Action;
 
 public class SchemaGeneratorLoginPassword extends javax.swing.JDialog {
@@ -24,8 +27,23 @@ public class SchemaGeneratorLoginPassword extends javax.swing.JDialog {
     
    @Action public void dataForm() throws ClassNotFoundException, IOException {
         Connect connecting = new Connect();
-        System.out.println(connecting.connected(jTextField1.getText(),jTextField2.getText(), jPasswordField1.getText()));
+        String results = connecting.connected(jTextField1.getText(),jTextField2.getText(), jPasswordField1.getText());
+        if(!results.equals("")){
+            showResults(results);
+        }
         dispose();
+    }
+
+   @Action
+    public void showResults(String results) throws FileNotFoundException, IOException, ClassNotFoundException {
+
+        if (resultConnect == null) {
+            JFrame mainFrame = SchemaGenerator.getApplication().getMainFrame();
+            resultConnect = new SchemaGeneratorViewResultConnect(mainFrame, results);
+            resultConnect.setLocationRelativeTo(mainFrame);
+            
+        }
+            SchemaGenerator.getApplication().show(resultConnect);
     }
 
     /** This method is called from within the constructor to
@@ -146,5 +164,5 @@ public class SchemaGeneratorLoginPassword extends javax.swing.JDialog {
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     // End of variables declaration//GEN-END:variables
-    
+    private JDialog resultConnect;
 }
