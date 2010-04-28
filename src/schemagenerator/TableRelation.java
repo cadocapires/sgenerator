@@ -2,8 +2,8 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package schemagenerator;
+
 
 import java.util.ArrayList;
 
@@ -14,8 +14,8 @@ import java.util.ArrayList;
 public class TableRelation {
 
     private String tableName;
-    private ArrayList listOtherTables;
-    
+    private ArrayList listOtherTables = new ArrayList();
+
     public TableRelation(String name){
         this.tableName = name;
     }
@@ -29,6 +29,6 @@ public class TableRelation {
         this.listOtherTables.add(table);
     }
 
-    
+
 
 }
