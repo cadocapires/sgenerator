@@ -71,7 +71,21 @@ public class ListTable {
       }
 
          public ArrayList getTables(){
-        return this.listTables;
+            return this.listTables;
+
+         }
+            public String toStringTable(){
+
+                String tabelas = "";
+                for (Iterator<TableRelation> it = this.listTables.iterator(); it.hasNext();) {
+                    TableRelation tableRelation = it.next();
+                    tabelas = tabelas + tableRelation.getNameOfTable() + " ";
+
+
+                }
+                return tabelas;
+
+
     }
 
         public static void main(String[] args) {
