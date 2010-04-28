@@ -21,7 +21,7 @@ US2.1 - Conexão com SGBD, dado um usuário, para buscar esquema base.
 
 US2.2 - Recuperar tabelas, campos e relações a serem usados posteriormente. 
 ||  *Teste De Aceitação*  |||| *Status* ||
-||||TA2.2.1 Verificar se os campos lidos são iguais aos da tabela resgata. TA2.2.2 Verificar se os relacionamentos são iguais aos relacionamentos do esquema base.||||||
+||||TA2.2.1 Verificar se os campos lidos são iguais aos da tabela resgata. TA2.2.2 Verificar se os relacionamentos são iguais aos relacionamentos do esquema base.||||C||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A2.2.1||||Retirar as informações das tabelas e salvá-las em alguma estrutura de dados.||||Márcio||||10h|||||| ||||
@@ -29,11 +29,11 @@ US2.2 - Recuperar tabelas, campos e relações a serem usados posteriormente.
 
 US3 - 	Gerar e povoar dicionário de sinôminos. 
 ||  *Teste De Aceitação*  |||| *Status*||
-||TA3.1Verificar a semântica das palavras. TA3.2. Verificar se as palavras foram inseridas corretamente. ||||||
+||TA3.1Verificar se as palavras disponíveis são as do dicionário. TA3.2. Verificar se o dicionário escolhido é o que realmente está sendo acessado. ||||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
-||A3.1||||Criar o dicionário de sinônimos.||||Priscilla||||5h|||||| ||||
-||A3.2||||Povoar o dicionário de sinônimos de acordo com alguns domínios específicos.||||Márcio||||2h|||||| ||||
+||A3.1||||Criar o dicionário de sinônimos.||||Priscilla||||5h|||||| ||C||
+||A3.2||||Povoar o dicionário de sinônimos de acordo com alguns domínios específicos.||||Márcio||||2h|||||| ||C||
 ||A3.3||||Gerar testes de unidade para classes criadas.||||Márcio||||4h|||||| ||||
 
 
