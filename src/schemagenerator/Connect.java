@@ -8,6 +8,12 @@ import java.sql.*;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 
+
+
+/**
+ *
+ * @author Priscilla
+ */
     public class Connect {
 
         public String connected(String address, String login, String password) throws ClassNotFoundException, IOException {
