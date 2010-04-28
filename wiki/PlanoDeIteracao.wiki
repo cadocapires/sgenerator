@@ -25,7 +25,7 @@ US2.2 - Recuperar tabelas, campos e relações a serem usados posteriormente.
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A2.2.1||||Retirar as informações das tabelas e salvá-las em alguma estrutura de dados.||||Márcio||||10h|||||| ||||
-||A2.2.2||||Gerar testes de unidade para classes criadas.||||Priscilla||||10h|||||| ||||
+||A2.2.2||||Gerar testes de unidade para classes criadas.||||Priscilla||||4h|||||| ||||
 
 US3 - 	Gerar e povoar dicionário de sinôminos. 
 ||  *Teste De Aceitação*  |||| *Status*||
