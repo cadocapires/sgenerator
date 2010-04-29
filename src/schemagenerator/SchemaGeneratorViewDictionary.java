@@ -29,7 +29,7 @@ public class SchemaGeneratorViewDictionary extends javax.swing.JDialog {
          textArea1.setText("");
          String theme = (String) jComboBox1.getSelectedItem();
          textArea1.setEditable(false);
-         textArea1.append("account_permission = acc_permission"+"\n"+"customer = client"+"\n"+"customer_account = customerAccount"+"\n");
+         textArea1.append("account_permission = acc_permission"+"\n"+"customer = client"+"\n"+"customer_account = customerAccount"+"\n"+"customer = client"+"\n"+"customer_account = customerAccount"+"\n"+"customer_taxrate = taxClient"+"\n"+"customer_taxrate = taxCustomer"+"\n"+"cash_transaction = cashTransaction"+"\n"+"financial burden = charge"+"\n"+"commission_rate = commissionRate"+"\n"+"trade = transaction"+"\n"+"trade = business"+"\n"+"trade_history = tradeHistory"+"\n"+"trade_history = transactionHistory"+"\n"+"trade_request = tradeRequest"+"\n"+"trade_request = transactionRequest"+"\n"+"trade_type = tradeType"+"\n"+"trade_type = transactionType"+"\n"+"broker = agent"+"\n"+"settlement = sett_lement"+"\n"+"holding_history = holdingHistory"+"\n"+"holding_summary = holdingSummary"+"\n"+"watch_item = watchItem"+"\n"+"holding = placement_of_capital"+"\n"+"watch_list = watchList"+"\n");
          InputStream f = SchemaGeneratorViewDictionary.class.getResourceAsStream("/"+theme+".txt");
          InputStreamReader rd = new InputStreamReader(f);
          BufferedReader brd = new BufferedReader(rd);
