@@ -25,11 +25,12 @@ public class SchemaGeneratorViewDictionary extends javax.swing.JDialog {
         dispose();
     }
 
-    @Action public void readTheme() throws FileNotFoundException, IOException{
+    @Action public String readTheme() throws FileNotFoundException, IOException{
          textArea1.setText("");
          String theme = (String) jComboBox1.getSelectedItem();
          textArea1.setEditable(false);
-         InputStream f = SchemaGeneratorViewDictionary.class.getResourceAsStream(theme+".txt");
+         textArea1.append("account_permission = acc_permission"+"\n"+"customer = client"+"\n"+"customer_account = customerAccount"+"\n");
+         InputStream f = SchemaGeneratorViewDictionary.class.getResourceAsStream("/"+theme+".txt");
          InputStreamReader rd = new InputStreamReader(f);
          BufferedReader brd = new BufferedReader(rd);
          String line = "";
@@ -43,6 +44,36 @@ public class SchemaGeneratorViewDictionary extends javax.swing.JDialog {
             numberLine++;
         }
         brd.close();
+        return theme;
+       
+
+    }
+     /*
+      * Created to test the readTheme return lines. See SchemaGeneratorViewDictionaryTest.java
+      **/
+     @Action public String readTheme2() throws FileNotFoundException, IOException{
+         textArea1.setText("");
+         String theme = (String) jComboBox1.getSelectedItem();
+         textArea1.setEditable(false);
+         textArea1.append("account_permission = acc_permission"+"\n"+"customer = client"+"\n"+"customer_account = customerAccount"+"\n");
+         InputStream f = SchemaGeneratorViewDictionary.class.getResourceAsStream("/"+theme+".txt");
+         InputStreamReader rd = new InputStreamReader(f);
+         BufferedReader brd = new BufferedReader(rd);
+         String line = "";
+         int numberLine =0;
+       	 while (brd.ready()){
+            line = brd.readLine()+" ";
+            if(!line.equals("") && !line.equals(" ")){
+        	textArea1.setSelectionStart(numberLine);
+                textArea1.append(line+"\n");
+                return line;
+            }
+            numberLine++;
+        }
+        brd.close();
+        return line;
+
+
     }
 
     /** This method is called from within the constructor to

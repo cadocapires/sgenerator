@@ -35,28 +35,17 @@ public class ListTable {
            indexTo = getTableIndex(tableTo);
            // this.listTables.get(indexFrom).setRelation(listTables.get(indexTo));
            getTable(indexFrom).setRelation(getTable(indexTo));
-
     }
 
 
       public int getTableIndex(String nameTable){
-
-          int index = -1;
-
-         
+          int index = -1;       
           for (Iterator<TableRelation> it = listTables.iterator(); it.hasNext();) {
               TableRelation tableRelation = it.next();
-          
-             if (tableRelation.getNameOfTable().equals(nameTable)) {
+              if (tableRelation.getNameOfTable().equals(nameTable)) {
                  index = listTables.indexOf(tableRelation);
-                
-
               }
-
-
           }
-
-         
           return index;
       }
 
@@ -70,50 +59,18 @@ public class ListTable {
 
       }
 
-         public ArrayList getTables(){
-            return this.listTables;
+      public ArrayList getTables(){
+          return this.listTables;
 
-         }
-            public String toStringTable(){
+      }
 
-                String tabelas = "";
-                for (Iterator<TableRelation> it = this.listTables.iterator(); it.hasNext();) {
-                    TableRelation tableRelation = it.next();
-                    tabelas = tabelas + tableRelation.getNameOfTable() + " ";
+         public String toStringTable(){
 
-
-                }
-                return tabelas;
-
-
-    }
-
-        public static void main(String[] args) {
-        ListTable lista = new ListTable();      
-        lista.setRelation("a", "b");       
-        lista.setRelation("a", "c");
-       lista.setRelation("d", "c");
-       
-
-           for (Iterator<TableRelation> it = lista.getListOfTables().iterator(); it.hasNext();) {
-              TableRelation tableRelation = it.next();
-             System.out.println(tableRelation.getNameOfTable() + "   resultado ");
-
-
-          }
-            for (int i = 0;  i < 2; i++) {
-
-                TableRelation tableR = lista.getTable(0);
-                ArrayList<TableRelation> array = tableR.getRelations();
-                TableRelation tableRelation = array.get(i);
-
-                System.out.println( tableRelation.getNameOfTable() + "resultado");
-
+            String tables = "";
+            for (Iterator<TableRelation> it = this.listTables.iterator(); it.hasNext();) {
+                TableRelation tableRelation = it.next();
+                tables = tables + tableRelation.getNameOfTable() + " ";
             }
-
-
-        }
-
-
-
+            return tables;
+        }   
 }
