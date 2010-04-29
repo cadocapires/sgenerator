@@ -32,12 +32,11 @@ public class ListTableTest {
     }
 
     /**
-     * Test of getTables method, of class ListTable.
+     * Test of getTables and setRelation method, of class ListTable.
      */
     @Test
     public void testGetTables() {
-        System.out.println("getTables");
-
+        System.out.println("getTables and setRelation");
         ListTable list = new ListTable();
         list.setRelation("a", "b");
         list.setRelation("a", "c");
@@ -48,73 +47,36 @@ public class ListTableTest {
      }
 
     /**
-     * Test of setRelation method, of class ListTable.
-     */
-    @Test
-    public void testSetRelation() {
-        System.out.println("setRelation");
-        String tableFrom = "";
-        String tableTo = "";
-        ListTable instance = new ListTable();
-        instance.setRelation(tableFrom, tableTo);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
      * Test of getTableIndex method, of class ListTable.
      */
     @Test
     public void testGetTableIndex() {
         System.out.println("getTableIndex");
-        String nameTable = "";
+        String nameTable = "a";
         ListTable instance = new ListTable();
+        instance.setRelation("a", "b");
         int expResult = 0;
         int result = instance.getTableIndex(nameTable);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
-     * Test of getTable method, of class ListTable.
+     * Test of getRelation method, of class ListTable.
      */
     @Test
-    public void testGetTable() {
+    public void testGetRelation() {
         System.out.println("getTable");
         int index = 0;
         ListTable instance = new ListTable();
-        TableRelation expResult = null;
+        instance.setRelation("a", "b");
+        String expResult = "b";
         TableRelation result = instance.getTable(index);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        ArrayList<TableRelation> array = result.getRelations();
+        TableRelation tableRelation = array.get(index);
+        assertEquals(expResult, tableRelation.getNameOfTable());
+
     }
 
-    /**
-     * Test of getListOfTables method, of class ListTable.
-     */
-    @Test
-    public void testGetListOfTables() {
-        System.out.println("getListOfTables");
-        ListTable instance = new ListTable();
-        ArrayList expResult = null;
-        ArrayList result = instance.getListOfTables();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of main method, of class ListTable.
-     */
-    @Test
-    public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        ListTable.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+  
 
 }
