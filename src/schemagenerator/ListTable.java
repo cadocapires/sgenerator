@@ -15,12 +15,11 @@ public class ListTable {
      * @param tableFrom
      * @param tableTo
      */
-      public void setRelation(String tableFrom, String tableTo){
+      public void setRelation(String tableFrom, String colFrom, String tableTo, String colTo){
           int indexFrom =0;
           int indexTo = 0;
 
-          if (getTableIndex(tableFrom)== -1 ) {
-          
+          if (getTableIndex(tableFrom)== -1 ) {          
 
               TableRelation table = new TableRelation(tableFrom);
               this.listTables.add(table);
@@ -34,7 +33,8 @@ public class ListTable {
            indexFrom = getTableIndex(tableFrom);
            indexTo = getTableIndex(tableTo);
            // this.listTables.get(indexFrom).setRelation(listTables.get(indexTo));
-           getTable(indexFrom).setRelation(getTable(indexTo));
+           getTable(indexFrom).setRelation(getTable(indexTo), colFrom, colTo);
+           getTable(indexTo).setRelation(getTable(indexFrom), colTo, colFrom);
     }
 
 
