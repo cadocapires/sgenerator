@@ -38,9 +38,9 @@ public class ListTableTest {
     public void testGetTables() {
         System.out.println("getTables and setRelation");
         ListTable list = new ListTable();
-        list.setRelation("a", "b");
-        list.setRelation("a", "c");
-        list.setRelation("d", "c");
+        list.setRelation("a", "x","b","y");
+        list.setRelation("a", "z", "c","w");
+        list.setRelation("d", "h", "c","i");
         String expResult = "a b c d ";
         String result = list.toStringTable();
         assertEquals(expResult, result);
@@ -54,7 +54,7 @@ public class ListTableTest {
         System.out.println("getTableIndex");
         String nameTable = "a";
         ListTable instance = new ListTable();
-        instance.setRelation("a", "b");
+        instance.setRelation("a", "x", "b","y");
         int expResult = 0;
         int result = instance.getTableIndex(nameTable);
         assertEquals(expResult, result);
@@ -68,7 +68,7 @@ public class ListTableTest {
         System.out.println("getTable");
         int index = 0;
         ListTable instance = new ListTable();
-        instance.setRelation("a", "b");
+        instance.setRelation("a", "x", "b","y");
         String expResult = "b";
         TableRelation result = instance.getTable(index);
         ArrayList<TableRelation> array = result.getRelations();
