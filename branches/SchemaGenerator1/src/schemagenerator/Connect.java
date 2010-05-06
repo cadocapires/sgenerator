@@ -30,13 +30,17 @@ import javax.swing.JFrame;
 
                 System.out.println("TABELA ORIGEM" + " -> " + "TABELA DESTINO");
 
+                ListTable listTable = new ListTable();
                 while(rs.next()) {
                        
                   String nameOrigin =  rs.getString("TABORIGEM");
+                  String colOrigin =  rs.getString("COLORIGEM");
                   String nameDestination =  rs.getString("TABDESTINO");
+                  String colDestination =  rs.getString("COLDESTINO");
+                  listTable.setRelation(nameOrigin, colOrigin, nameDestination, colDestination);
 
                   //System.out.println(nameOrigin + " -> " + nameDestination);
-                  results += nameOrigin + " -> " + nameDestination +";";
+                  results += nameOrigin + " -> " + nameDestination + "coluna" +nameOrigin + " -> " + nameDestination +";";
                 
                  }
             }catch(SQLException e) {
