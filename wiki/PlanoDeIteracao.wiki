@@ -60,7 +60,7 @@ US5 - Gerar script para cada esquema gerado.
 
 
 === Iteração 5 - (27/05 - 10/06) ===
-US6 - Apresentar grafo que representará o esquema gerado. Visualizar tabelas como vértices e relacionamentos como arestas.
+US6 - Apresentar grafo que representará o esquema gerado. Visualizar tabelas como vértices e relacionamentos como arestas.  (ABORTADA)
 ||  *Teste De Aceitação*  |||| *Status*||
 ||Verificar se o grafo está representando corretamente o esquema. ||||||
 
