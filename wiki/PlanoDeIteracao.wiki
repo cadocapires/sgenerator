@@ -60,21 +60,42 @@ US5 - Gerar script para cada esquema gerado.
 
 
 === Iteração 5 - (27/05 - 10/06) ===
-US6 - Apresentar grafo que representará o esquema gerado. Visualizar tabelas como vértices e relacionamentos como arestas.  (ABORTADA)
+US6 - Apresentar grafo que representará o esquema gerado. Visualizar tabelas como vértices e relacionamentos como arestas.  (ABORTADA)]Foi abortada apos conversa com cliente. Em seu lugar foram adicionadas duas novas US. 
 ||  *Teste De Aceitação*  |||| *Status*||
-||Verificar se o grafo está representando corretamente o esquema. ||||||
+||Verificar se o grafo está representando corretamente o esquema. ||||A||
 
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
-||A5.1||||Representar graficamente os grafos.||||Márcio e Priscilla||||20h|||||| ||||
-||A5.2||||Contruir toda a interface da ferramenta.||||Márcio e Priscilla||||20h|||||| ||||
-||A5.3||||Gerar teste de unidade para classes criadas.||||Márcio e Priscilla||||10h|||||| ||||
+||A5.1||||Representar graficamente os grafos.||||Márcio e Priscilla||||20h|||||| ||A||
+||A5.2||||Contruir toda a interface da ferramenta.||||Márcio e Priscilla||||20h|||||| ||A||
+||A5.3||||Gerar teste de unidade para classes criadas.||||Márcio e Priscilla||||10h|||||| ||A||
+
+Novas US para a Iteração 5
+
+
+US6.1 - Rever a Geração de esquemas
+||  *Teste De Aceitação*  |||| *Status*||
+||Verificar se os esquemas gerados estão de acordo com os parâmetros. ||||C||
+
+
+|| *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
+||A5.1||||Recriar função de geração.|||| Priscilla||||3h|||||| ||C||
+||A5.2|||| Fazer novos testes para a geração de esquemas   |||| Márcio ||||3h|||||| ||C||
+
+US6.2 - Rever a geração de scripts
+||  *Teste De Aceitação*  |||| *Status*||
+||TA5.1 Verificar se o script está de acordo com o esquema base. TA5.2 Verificar se o esquema gerado foi realmente salvo, caso o usuário tenha escolhido salvar. ||||C||
+
+|| *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
+||A5.2.1||||Regerar scripts com todos os atributos.|||| Márcio ||||8h|||||| ||C||
+||A5.2.2|||| Gerar testes para a nova geração de scripts     |||| Priscilla ||||3h|||||| ||C||
+
+
 
 === Iteração 6 - (10/06 - 01/07) ===
 US7 - Fazer site e manual de uso. 
 ||  *Teste De Aceitação*  |||| *Status* ||
-|||O cliente avaliará os artefatos não funcionais. |||||
-||Verificar se o grafo está representando corretamente o esquema. ||||||
+|||O cliente avaliará o site e o manual. |||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A6.1||||Contruir manual de uso.||||Priscilla||||15h|||||| ||||
