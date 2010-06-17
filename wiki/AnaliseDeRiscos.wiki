@@ -12,3 +12,4 @@
 || 25/05 |||| O esquema fornecido pelo professor no ambiente financeiro tem muitas siglas. |||| Média |||| Priscilla || Superado || Verificar com o cliente significado de algumas siglas.||
 || 25/05 |||| Problemas com SVN ou google code podem reduzir a velocidade de codificação. |||| Alta |||| Priscilla || Vigente || Verificar com monitores o que deve ser feito.||
 || 25/05 |||| Problemas com internet em casa. "Programação off-line" pode acarretar em inconsistências no código |||| Média |||| Todos || Vigente || Procurar desenvolver o projetos nas máquinas do PET ou LSI.||
+|| 16/06 |||| Final do período = entrega de muitos projetos e muitas provas |||| Alta |||| Todos || Vigente || Organizar melhor horário de estudos e tentar não alterar nos horários dedicados para a disciplina de LES||
