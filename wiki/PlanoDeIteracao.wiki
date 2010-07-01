@@ -88,17 +88,17 @@ US6.2 - Rever a geração de scripts
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
 ||A5.2.1||||Regerar scripts com todos os atributos.|||| Márcio ||||7h||||6,6h||||C||
-||A5.2.2|||| Gerar testes para a nova geração de scripts     |||| Priscilla ||||4h||||4,5h||||C||
+||A5.2.2|||| Gerar testes para a nova geração de scripts|||| Priscilla ||||4h||||4,5h||||C||
 
 
 
 === Iteração 6 - (10/06 - 01/07) ===
 US7 - Fazer site e manual de uso. 
 ||  *Teste De Aceitação*  |||| *Status* ||
-|||O cliente avaliará o site e o manual. |||||
+|||O cliente avaliará o site e o manual. |||C||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
-||A6.1||||Contruir manual de uso.||||Priscilla||||15h||||7h|| ||C||
-||A6.2||||Contruir site da ferramenta.||||Márcio ||||15h||||3.5h|| ||C||
+||A6.1||||Contruir manual de uso.||||Priscilla||||15h||||7h||||C||
+||A6.2||||Contruir site da ferramenta.||||Márcio ||||15h||||3.5h||||C||
 
 Os status C – concluído; D – em desenvolvimento A – abortada.
