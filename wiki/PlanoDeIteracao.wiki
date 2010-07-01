@@ -98,7 +98,7 @@ US7 - Fazer site e manual de uso.
 |||O cliente avaliará o site e o manual. |||||
 
 || *Atividade* |||| *Descrição* |||| *Responsável* |||| *Estimativa de tempo*|||| * Tempo Real*|||| *Status*||
-||A6.1||||Contruir manual de uso.||||Priscilla||||15h|||||| ||||
-||A6.2||||Contruir site da ferramenta.||||Márcio ||||15h|||||| ||||
+||A6.1||||Contruir manual de uso.||||Priscilla||||15h||||7h|| ||C||
+||A6.2||||Contruir site da ferramenta.||||Márcio ||||15h||||3.5h|| ||C||
 
 Os status C – concluído; D – em desenvolvimento A – abortada.
