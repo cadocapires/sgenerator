@@ -1,0 +1,6 @@
+# Modelo Lógico de Dados #
+
+O projeto somente irá persistir os scripts dos esquemas gerados e o dicionário de dados em arquivos .txt. Porém no futuro poderemos migrar para um banco de dados de acordo com a seguinte especificação:
+
+
+http://sgenerator.googlecode.com/files/ModeloLogicoDeDados.JPG

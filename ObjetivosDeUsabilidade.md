@@ -1,0 +1,15 @@
+# Objetivos de Usabilidade #
+
+|  **Objetivo** | **Mensuração** | |
+|:--------------|:-----------------|:|
+|Reduzir a taxa de erros|Número de tarefas concluídas sem falhas. | |
+|Facilitar o aprendizado|Sondar a facilidade de uso do manual e do site do produto. | |
+|Adequar conteúdo (terminologia e simbologia)|Aprendizado mantido mesmo com uso pouco freqüente do sistema. | |
+|Ser atrativo ao usuário|Sondar a satisfação subjetiva do usuário ao utilizar o sistema.| |
+|Possuir telas simples|Observar dificuldades de navegação.| |
+|Manter consistência na seqüências de ações necessárias para realizar uma tarefa|Número de opções incorretas e de erros repetidos .| |
+
+
+
+
+

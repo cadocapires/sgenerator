@@ -1,0 +1,16 @@
+# Tabela de Riscos #
+
+| **Data** | **Risco** | | **Prioridade** | | **Responsável** | |**Status** |**Providência/Solucão**|
+|:---------|:----------|:|:---------------|:|:-----------------|:|:----------|:------------------------|
+| 01/04 | Equipe com apenas 2 integrantes, grande chance de sobrecarga dos integrantes se houver muitas tarefas | | Alta | | Márcio | |Superado |Discutir com o cliente a possível diminuição de tarefas|
+| 01/04 | Falta de um integrante por motivo maior (doença, viagem etc.), emplicará em 100% do trabalho sobre apenas uma pessoa | | Alta | | Todos | |Superado|Procurar adiantar atividades|
+| 01/04 | Estudo de Oracle 10g pode não ser satisfatório | | Baixa | | Márcio| | Superado |Rever com mais profundidade o assunto da disciplia BD2|
+| 01/04 | Não encontrar ferramenta para gerar grafos automaticamente. | | Média | | Priscilla | | Superado | Decobrir como os grafos podem ser feitos em java.|
+| 14/05 | Não ter um ambiente fixo para o desenvolvimento. | | Média | | Todos | | Superado | Tentar sempre fixar a sala do Grupo PET ou o laboratório LSI.|
+| 14/05 | O servidor onde o SGBD Oracle está hospedado só pode ser acessado no DSC. | | Média | | Todos | |Superado |Contactar o cliente. |
+| 25/05 | O grupo não conhece bem o vocabulário da área financeira. | | Média | | Todos | | Superado | Pesquisar.|
+| 25/05 | O esquema fornecido pelo professor no ambiente financeiro tem muitas siglas. | | Média | | Priscilla | | Superado | Verificar com o cliente significado de algumas siglas.|
+| 25/05 | O esquema fornecido pelo professor no ambiente financeiro tem muitas siglas. | | Média | | Priscilla | | Superado | Verificar com o cliente significado de algumas siglas.|
+| 25/05 | Problemas com SVN ou google code podem reduzir a velocidade de codificação. | | Alta | | Priscilla | | Superado | Verificar com monitores o que deve ser feito.|
+| 25/05 | Problemas com internet em casa. "Programação off-line" pode acarretar em inconsistências no código | | Média | | Todos | | Superado | Procurar desenvolver o projetos nas máquinas do PET ou LSI.|
+| 16/06 | Final do período = entrega de muitos projetos e muitas provas | | Alta | | Todos | | Superado | Organizar melhor horário de estudos e tentar não alterar nos horários dedicados para a disciplina de LES|

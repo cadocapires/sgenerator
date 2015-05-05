@@ -1,0 +1,15 @@
+# Big Chart #
+
+| **Data** | **Classes** | | **Testes de Aceitação** | | **Testes de Unidade** | | **User Stories** | | **Observações** | |
+|:---------|:------------|:|:--------------------------|:|:----------------------|:|:-----------------|:|:------------------|:|
+|31/3/2010|0 | |0 | |0 | |0 | |  | |
+|15/4/2010|8 | |0 | |4 | |2 | |  | |
+|27/4/2010|12| |0 | |6 | |4 | |  | |
+|13/5/2010|15| |2 | |9 | |4 | |  | |
+|26/5/2010|18| |3 | |12| |5 | |  | |
+|16/6/2010|20| |4 | |16| |7 | |Quatro dos doze teste de unidade da útlima iteração foram modificados após o Teste Review| |
+|1/7/2010|20| |4 | |16| |8 | |  | |
+
+
+
+http://sgenerator.googlecode.com/files/BigChart.JPG

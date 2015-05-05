@@ -1,0 +1,7 @@
+# Definição de Papéis #
+
+| **Equipe**| **Papeis**|
+|:----------|:----------|
+|Carlos Eduardo|Cliente, Usuário|
+|Márcio Saraiva|Gerente, Desenvolvedor, Testador|
+|Priscilla Vieira|Gerente, Desenvolvedor, Testador| |

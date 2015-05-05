@@ -1,0 +1,21 @@
+# Projeto Arquitetural #
+
+**Descrição**
+
+![http://sgenerator.googlecode.com/files/Projeto%20Arquitetural.jpg](http://sgenerator.googlecode.com/files/Projeto%20Arquitetural.jpg)
+
+> A arquitetura para componentes verticais, que será usada nos componentes, segue o padrão n-camadas, separando a interface, a Camada Lógica (responsável pela geração de esquemas), a Camada de Comunição com o SGBD (responsável pela recuperação dos esquemas do SGBD Oracle 10g Express Edition), a Camada de Saída de Scripts (onde são apresentados os scripts dos esquemas gerados) e a Interface (responsável pela apresentação dos grafos dos esquemas gerados).
+
+> A Camada Lógica irá gerar esquemas utilizando um Dicionário de Sinônimos no formato .txt.
+
+> Na interface serão utilizadas ferramentas que geram código java. Embora se proponham inicialmente a serem executadas completamente em uma máquina, a arquitetura facilita possível mudança para ambiente web, precisando mudar apenas detalhes na camada de processamento e a mudança da camada da interface.
+
+> Nenhum algoritmo, regra de negócio ou acesso a dados será implementado em código dentro da interface.
+
+> A persistência dos objetos deve ser implementada sob o padrão de projeto DAO (http://java.sun.com/blueprints/patterns/DAO.html).
+
+> Os componentes JavaBeans presentes na Camada Lógica serão acompanhado de documentação no padrão JavaDoc.
+
+> Será adotado como padrão o SGBD relacional Oracle, por ser totalmente compatível com programas anteriormente utilizados pelo cliente e usuário, facilitando o uso e o aprendizado do programa pelos mesmos.
+
+> O ambiente de desenvolvimento será a IDE NetBeans 6.8 e os testes serão criados com o JUnit 4.

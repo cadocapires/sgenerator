@@ -1,0 +1,15 @@
+# Protótipo De Interface #
+
+![http://sgenerator.googlecode.com/files/1.1-Carregar%20tabelas%20de%20um%20SGBD.png](http://sgenerator.googlecode.com/files/1.1-Carregar%20tabelas%20de%20um%20SGBD.png)
+
+![http://sgenerator.googlecode.com/files/1.2-Consultar%20Dicion%C3%A1rio%20de%20Sin%C3%B4nimos.png](http://sgenerator.googlecode.com/files/1.2-Consultar%20Dicion%C3%A1rio%20de%20Sin%C3%B4nimos.png)
+
+![http://sgenerator.googlecode.com/files/1.3-Especificar%20Par%C3%A2metros%20de%20Gera%C3%A7%C3%A3o.png](http://sgenerator.googlecode.com/files/1.3-Especificar%20Par%C3%A2metros%20de%20Gera%C3%A7%C3%A3o.png)
+
+![http://sgenerator.googlecode.com/files/1.4-Gerar%20Esquemas.png](http://sgenerator.googlecode.com/files/1.4-Gerar%20Esquemas.png)
+
+![http://sgenerator.googlecode.com/files/1.5-Visualizar%20Esquema.png](http://sgenerator.googlecode.com/files/1.5-Visualizar%20Esquema.png)
+
+![http://sgenerator.googlecode.com/files/1-Utilizar%20SchemaGenerator.png](http://sgenerator.googlecode.com/files/1-Utilizar%20SchemaGenerator.png)
+
+![http://sgenerator.googlecode.com/files/tree.png](http://sgenerator.googlecode.com/files/tree.png)

@@ -1,0 +1,124 @@
+# Plano De Iteração #
+## Tabela de Alocação de Tarefas ##
+
+### Iteração 1 - (31/03 - 15/04) ###
+US1 - Estudo de tecnologias:SGBD Oracle, Java GWT.|  **Teste De Aceitação**  | **Status**| |
+|:---------------------------|:----------|:|
+|Verificar o sucesso do estudo mostrando um exemplo para o cliente que utiliza as tecnologias.|C ||
+
+| **Atividade** | **Descrição** | | **Responsável** | | **Estimativa de tempo**| | **Tempo Real**| | **Status**| |
+|:--------------|:----------------|:|:-----------------|:|:-----------------------|:|:--------------|:|:----------|:|
+|A1.1|Estudar algumas tecnologias a serem usadas.| | Márcio e Priscilla| |10h| |6h| |C | |
+
+US2.1 - Conexão com SGBD, dado um usuário, para buscar esquema base.
+|  **Teste De Aceitação**  | **Status**| |
+|:---------------------------|:----------|:|
+|TA2.1.1 Verificar se o esquema lido é igual ao de origem.TA2.1.2 Verificar se o esquema lido pertence ao dado usuário.|C | |
+
+| **Atividade** | **Descrição** | | **Responsável** | | **Estimativa de tempo**| | **Tempo Real**| | **Status**| |
+|:--------------|:----------------|:|:-----------------|:|:-----------------------|:|:--------------|:|:----------|:|
+|A2.1.1|Fazer a conexão com o SGBD dado um usuário.| |Márcio| |10h| |8h| |C | |
+|A2.1.2|Gerar testes de unidade para classes criadas.| |Priscilla| |10h| |9h| |C | |
+
+
+### Iteração 2 - (15/04 - 29/04) ###
+
+US2.2 - Recuperar tabelas, campos e relações a serem usados posteriormente.
+|  **Teste De Aceitação**  | **Status** | |
+|:---------------------------|:-----------|:|
+|TA2.2.1 Verificar se os campos lidos são iguais aos da tabela resgata. TA2.2.2 Verificar se os relacionamentos são iguais aos relacionamentos do esquema base.| |C | |
+
+| **Atividade** | **Descrição** | | **Responsável** | | **Estimativa de tempo**| | **Tempo Real**| | **Status**| |
+|:--------------|:----------------|:|:-----------------|:|:-----------------------|:|:--------------|:|:----------|:|
+|A2.2.1|Retirar as informações das tabelas e salvá-las em alguma estrutura de dados.| |Márcio| |10h| |9,8h| | |C |
+|A2.2.2|Gerar testes de unidade para classes criadas.| |Priscilla| |4h| |5,9h| | |C |
+
+US3 - 	Gerar e povoar dicionário de sinôminos.
+|  **Teste De Aceitação**  | **Status**| |
+|:---------------------------|:----------|:|
+|TA3.1Verificar se as palavras disponíveis são as do dicionário. TA3.2. Verificar se o dicionário escolhido é o que realmente está sendo acessado. |C | |
+
+| **Atividade** | **Descrição** | | **Responsável** | | **Estimativa de tempo**| | **Tempo Real**| | **Status**| |
+|:--------------|:----------------|:|:-----------------|:|:-----------------------|:|:--------------|:|:----------|:|
+|A3.1|Criar o dicionário de sinônimos.| |Priscilla| |5h| |5,0h| | |C |
+|A3.2|Povoar o dicionário de sinônimos de acordo com alguns domínios específicos.| |Márcio| |2h| |1,5h| | |C |
+|A3.3|Gerar testes de unidade para classes criadas.| |Márcio| |4h| |3,8h| | |C |
+
+
+### Iteração 3 - (29/04 - 13/05) ###
+
+US4 - Gerar Esquemas aleatórios a partir de esquemas escolhidos. Parâmetros deverão ser respeitados.
+|  **Teste De Aceitação**  | **Status**| |
+|:---------------------------|:----------|:|
+|Verificar se os esquemas gerados estão de acordo com os parâmetros.|C | |
+
+| **Atividade** | **Descrição** | | **Responsável** | | **Estimativa de tempo**| | **Tempo Real**| | **Status**| |
+|:--------------|:----------------|:|:-----------------|:|:-----------------------|:|:--------------|:|:----------|:|
+|A4.1|Criar função de geração.| |Priscilla| |10h| |12,8h| | |C |
+|A4.2|Gerar esquemas.| |Priscilla| |10h| |4,0h| | |C |
+|A4.2|Gerar teste para classes criadas.| |Márcio| |10h| |4,0h| | |C |
+
+### Iteração 4 - (13/05 - 27/05) ###
+
+US5 - Gerar script para cada esquema gerado.
+|  **Teste De Aceitação**  | **Status**| |
+|:---------------------------|:----------|:|
+|TA5.1 Verificar se o script está de acordo com o esquema base. TA5.2 Verificar se o esquema gerado foi realmente salvo, caso o usuáriop tenha escolhido salvar. |C | |
+
+| **Atividade** | **Descrição** | | **Responsável** | | **Estimativa de tempo**| | **Tempo Real**| | **Status**| |
+|:--------------|:----------------|:|:-----------------|:|:-----------------------|:|:--------------|:|:----------|:|
+|A5.1|Gerar script de saída dos esquemas gerados.| |Márcio| |20h| |11,3h| | |C |
+|A5.2|Gerar teste de unidade para classes criadas.| |Priscilla| |10h| |4,3h| | |C |
+
+
+### Iteração 5 - (27/05 - 10/06) ###
+US6 - Apresentar grafo que representará o esquema gerado. Visualizar tabelas como vértices e relacionamentos como arestas.  (ABORTADA)]Foi abortada apos conversa com cliente. Em seu lugar foram adicionadas duas novas US.
+|  **Teste De Aceitação**  | **Status**| |
+|:---------------------------|:----------|:|
+|Verificar se o grafo está representando corretamente o esquema. |A | |
+
+
+| **Atividade** | **Descrição** | | **Responsável** | | **Estimativa de tempo**| | **Tempo Real**| | **Status**| |
+|:--------------|:----------------|:|:-----------------|:|:-----------------------|:|:--------------|:|:----------|:|
+|A5.1|Representar graficamente os grafos.| |Márcio e Priscilla| |20h| |  | | |A |
+|A5.2|Contruir toda a interface da ferramenta.| |Márcio e Priscilla| |20h| |  | | |A |
+|A5.3|Gerar teste de unidade para classes criadas.| |Márcio e Priscilla| |10h| |  | | |A |
+
+Novas US para a Iteração 5
+
+
+US6.1 - Rever a Geração de esquemas
+|  **Teste De Aceitação**  | **Status**| |
+|:---------------------------|:----------|:|
+|Verificar se os esquemas gerados estão de acordo com os parâmetros. |C | |
+
+
+| **Atividade** | **Descrição** | | **Responsável** | | **Estimativa de tempo**| | **Tempo Real**| | **Status**| |
+|:--------------|:----------------|:|:-----------------|:|:-----------------------|:|:--------------|:|:----------|:|
+|A5.1|Recriar função de geração.| | Priscilla| |5h| |2,6h| |C | |
+|A5.2| Fazer novos testes para a geração de esquemas   | | Márcio | |3h| |3,1h| |C | |
+
+US6.2 - Rever a geração de scripts
+|  **Teste De Aceitação**  | **Status**| |
+|:---------------------------|:----------|:|
+|TA5.1 Verificar se o script está de acordo com o esquema base. TA5.2 Verificar se o esquema gerado foi realmente salvo, caso o usuário tenha escolhido salvar. |C | |
+
+| **Atividade** | **Descrição** | | **Responsável** | | **Estimativa de tempo**| | **Tempo Real**| | **Status**| |
+|:--------------|:----------------|:|:-----------------|:|:-----------------------|:|:--------------|:|:----------|:|
+|A5.2.1|Regerar scripts com todos os atributos.| | Márcio | |7h| |6,6h| |C | |
+|A5.2.2| Gerar testes para a nova geração de scripts| | Priscilla | |4h| |4,5h| |C | |
+
+
+
+### Iteração 6 - (10/06 - 01/07) ###
+US7 - Fazer site e manual de uso.
+|  **Teste De Aceitação**  | **Status** | |
+|:---------------------------|:-----------|:|
+|O cliente avaliará o site e o manual. |C |
+
+| **Atividade** | **Descrição** | | **Responsável** | | **Estimativa de tempo**| | **Tempo Real**| | **Status**| |
+|:--------------|:----------------|:|:-----------------|:|:-----------------------|:|:--------------|:|:----------|:|
+|A6.1|Contruir manual de uso.| |Priscilla| |15h| |7h| |C | |
+|A6.2|Contruir site da ferramenta.| |Márcio | |15h| |3.5h| |C | |
+
+Os status C – concluído; D – em desenvolvimento A – abortada.

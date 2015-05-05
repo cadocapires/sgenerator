@@ -1,0 +1,12 @@
+# Modelo de Tarefa #
+
+![http://sgenerator.googlecode.com/files/ModeloDeTarefa.jpg](http://sgenerator.googlecode.com/files/ModeloDeTarefa.jpg)
+
+Legenda:
+
+Add. = Adicionar
+Cons. = Consultar;
+D. Sin. = Dicionário de Sinônimos;
+Esp. = Especificar;
+Qtio. = Quantidade;
+Vis. = Visualizar.

@@ -1,0 +1,12 @@
+# User Stories e Testes De Aceitação #
+
+| **US** | **Descrição** | | **Estimativa** | | **Teste de Aceitação** | |
+|:-------|:----------------|:|:---------------|:|:-------------------------|:|
+| US1 |Estudo de tecnologias:SGBD Oracle, Java GWT.| |10h| | Verificar o sucesso do estudo mostrando um exemplo para o cliente que utiliza as tecnologias. | |
+| US2.1 | Conexão com SGBD, dado um usuário, para buscar esquema base. | | 10h | | TA2.1.1 Verificar se o esquema lido é igual ao de origem.TA2.1.2 Verificar se o esquema lido pertence ao dado usuário. | |
+| US2.2 | Recuperar tabelas, campos e relações a serem usados posteriormente. | | 10h | | TA2.2.1 Verificar se os campos lidos são iguais aos da tabela resgata. TA2.2.2 Verificar se os relacionamentos são iguais aos relacionamentos do esquema base. | |
+| US3 |Gerar e povoar dicionário de sinôminos. | | 10h | |TA3.1. Verificar se as palavras foram recuperadas corretamente. | |
+| US4 | Gerar Esquemas aleatórios a partir de esquemas escolhidos. parâmetros deverão ser respeitados. | | 20h | |Verificar se os esquemas gerados estão de acordo com os parâmetros.  | |
+| US5 |Gerar script  para cada esquema gerado. | |20h | |TA5.1 Verificar se o script está de acordo com o esquema base. TA5.2 Verificar se o esquema gerado foi realmente salvo, caso o usuário tenha escolhido a opção para salvar.  | |
+| US6 | Apresentar grafo que representará o esquema gerado. Visualizar tabelas como vértices e relacionamentos como arestas.| | 20h | |Verificar se o grafo está representando corretamente o esquema.  | |
+| US7 |Fazer site e manual de uso.  | |20h  | | O cliente avaliará os artefatos. | |
